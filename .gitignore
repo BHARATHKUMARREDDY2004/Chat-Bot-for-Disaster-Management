@@ -1,0 +1,40 @@
+# Python-specific
+*.pyc
+__pycache__/
+
+# Virtual environment
+venv/
+.env
+
+# Data files
+*.pkl
+*.h5
+
+# Log files
+*.log
+
+# IDE-specific
+.vscode/
+.idea/
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Temporary files
+*~
+.DS_Store
+
+# Virtual environment
+venv/
+
+# Ignore environment-specific files
+.env
+
+# Ignore data files
+*.pkl
+*.h5
+
+# Ignore log files
+*.log

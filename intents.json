@@ -1,0 +1,2539 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! What can I do for you?", "Hey! How may I help you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "wrap", "wrap up"],
+      "responses": ["Goodbye! Have a great day!", "Bye! Take care!", "See you later!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks a lot", "Thanks", "thankyou", "thanku"],
+      "responses": ["You're welcome!", "No problem!", "Glad I could help!"]
+    },
+    {
+      "tag": "definition",
+      "patterns": [
+        "What is a cyclone?",
+        "Define cyclone",
+        "Can you define cyclones?",
+        "What are the main features of a cyclone?",
+        "What kind of damage can cyclones cause?"
+      ],
+      "responses": [
+        "A cyclone is a powerful weather system that forms over warm ocean waters. It's characterized by strong winds circling a low-pressure center, heavy rainfall, and storm surges.",
+        "Cyclones bring strong winds, torrential rain, and storm surges that can cause widespread destruction. They can damage buildings, infrastructure, and crops, and lead to flooding and landslides.",
+        "Cyclones are one of the most powerful weather phenomena and can cause significant loss of life and property."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "cyclone india",
+      "patterns": [
+        "Are cyclones common in India?",
+        "Where do cyclones hit in India?",
+        "What's the cyclone season in India?",
+        "Why is India prone to cyclones?",
+        "What are the dangers of cyclones in India?"
+      ],
+      "responses": [
+        "Yes, India is one of the areas most affected by cyclones globally. The Bay of Bengal sees more cyclones than the Arabian Sea.",
+        "India's long coastline and warm ocean temperatures create ideal conditions for cyclone formation.",
+        "Cyclones bring strong winds, storm surges that can inundate coastal areas, and heavy rainfall that can lead to flooding. These factors can cause widespread damage and loss of life."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "cyclone preparation",
+      "patterns": [
+        "How can I prepare for a cyclone?",
+        "What should I do if a cyclone warning is issued?",
+        "Where can I find information about cyclone warnings?",
+        "What are some safety tips during a cyclone?"
+      ],
+      "responses": [
+        "It's important to stay informed and follow instructions from local authorities. Prepare an emergency kit with essentials like food, water, first-aid supplies, and a battery-powered radio.",
+        "Local authorities and weather websites will provide warnings and updates. You can also download emergency apps from government agencies.",
+        "Stay indoors during the storm, away from windows and doors. If you live in a low-lying area, evacuate to higher ground if instructed by authorities."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "tropical cyclone",
+      "patterns": [
+        "What is a tropical cyclone?",
+        "Define tropical cyclone",
+        "What is a tropical cyclone?",
+        "Can you define the term 'tropical cyclone' for me?",
+        "What does the word 'tropical cyclone' mean?",
+        "What are the main characteristics of a tropical cyclone?"
+      ],
+      "responses": [
+        "A tropical cyclone is an intense circular storm that originates over warm tropical oceans. It is characterized by low atmospheric pressure, high winds, and heavy rain. Tropical cyclones generate winds that exceed 119 km/h (74 miles per hour) and may produce devastating storm surges.",
+        "A tropical cyclone is an intense circular storm that originates over warm tropical oceans. It is characterized by low atmospheric pressure, high winds, and heavy rain. Tropical cyclones generate winds that exceed 119 km/h (74 miles per hour) and may produce devastating storm surges.",
+        "A tropical cyclone is a type of weather system that forms over warm ocean waters and is characterized by low atmospheric pressure, high winds, and heavy rain.",
+        "A tropical cyclone is a large-scale air mass that forms over warm ocean waters and is characterized by low atmospheric pressure and high winds. It is also known as a hurricane or a typhoon.",
+        "A tropical cyclone is a large-scale weather system that forms over warm ocean waters and is characterized by low atmospheric pressure, high winds, and heavy rain. It is known as a hurricane in the Atlantic and eastern Pacific Oceans and as a typhoon in the western Pacific Ocean.",
+        "A tropical cyclone is a low-pressure weather system that forms over warm tropical waters. It is characterized by strong winds, heavy rain, and storm surges. Tropical cyclones are classified into different categories based on their maximum sustained wind speeds, such as tropical depressions, tropical storms, and hurricanes or typhoons."
+      ],
+      "context": [
+        "tropical cyclone",
+        "weather system",
+        "air mass",
+        "low pressure",
+        "warm ocean waters"
+      ]
+    },
+    {
+      "tag": "hurricane",
+      "patterns": [
+        "What is a hurricane?",
+        "Define hurricane",
+        "What is a hurricane?",
+        "Can you define the term 'hurricane' for me?",
+        "What does the word 'hurricane' mean?",
+        "Can you explain what a hurricane is?",
+        "What are the main characteristics of a hurricane?"
+      ],
+      "responses": [
+        "A hurricane is a type of tropical cyclone that forms in the Atlantic and eastern Pacific Oceans. It is characterized by low atmospheric pressure, high winds, and heavy rain.",
+        "A hurricane is a type of tropical cyclone that forms in the Atlantic and eastern Pacific Oceans. It is characterized by low atmospheric pressure, high winds, and heavy rain.",
+        "A hurricane is a type of weather system that forms in the Atlantic and eastern Pacific Oceans and is characterized by low atmospheric pressure, high winds, and heavy rain.",
+        "A hurricane is a large-scale air mass that forms in the Atlantic and eastern Pacific Oceans and is characterized by low atmospheric pressure, high winds, and heavy rain.",
+        "A hurricane is a large-scale weather system that forms in the Atlantic and eastern Pacific Oceans and is characterized by low atmospheric pressure, high winds, and heavy rain. It is also known as a typhoon in the western Pacific Ocean.",
+        "A hurricane is a type of tropical cyclone that forms in the Atlantic and eastern Pacific Oceans. It is characterized by sustained winds of at least 119 km/h (74 miles per hour) and may produce devastating storm surges and flooding."
+      
+      ],
+      "context": [
+        "hurricane",
+        "weather system",
+        "air mass"
+      ]
+    },
+    {
+      "tag": "precautions before_cyclone",
+      "patterns": [
+        "What precautions should we take before a cyclone?",
+        "How to prepare for a cyclone?",
+        "What should I do before cyclone hits?",
+        "What should I do before a cyclone?",
+        "How should I prepare for a cyclone?",
+        "What precautions should I take before a cyclone?"
+      ],
+      "responses": [
+        "Here are some precautions you should take before a cyclone:\n 1. Stay Informed: Keep yourself updated with the latest weather updates and advisories issued by the meteorological department. \n 2. Prepare an Emergency Kit:  Put together an emergency kit that includes essential items such as non-perishable food, water, first-aid supplies, flashlight, batteries, and important documents. \n 3. Secure Your Home: Secure your home by closing all windows and doors, reinforcing any weak areas, and moving valuable items to a safe location. \n 4. Protect Important Documents: Keep important documents such as birth certificates, insurance policies, and identification cards in a waterproof container. \n 5. Plan for Evacuation: If you live in a low-lying area or a flood-prone area, make arrangements for evacuation in advance. Identify a safe location and plan your route. \n 6. Check on Neighbors: Check on your neighbors, especially the elderly and disabled, to ensure they are prepared for the cyclone. \n 7. Secure Outdoor Furniture: Secure any outdoor furniture or other items that could become projectiles during the cyclone. \n 8. Fill Vehicle Fuel Tank: Make sure your vehicle's fuel tank is full in case you need to evacuate. \n 9. Charge Devices: Charge your mobile devices and have backup batteries available. \n 10. Unplug Appliances: Unplug electrical appliances to prevent damage from power surges. \n 11. Follow Instructions: Follow the instructions of local authorities and evacuate if ordered to do so. \n 12. Stay Indoors: Once the cyclone hits, stay indoors and avoid going outside until the all-clear is given. \n 13. Take Shelter: If you are unable to evacuate, take shelter in the strongest part of your home, such as a basement or interior room. \n 14. Avoid Flooded Areas: Avoid flooded areas and never attempt to drive through floodwaters. \n 15. Stay Informed: Continue to monitor weather updates and advisories for any further information."
+      ],
+      "context": [
+        "cyclone",
+        "safety",
+        "precautions",
+        "emergency kit",
+        "evacuation",
+        "important documents"
+      ]
+    },
+    {
+      "tag": "precautions after cyclone",
+      "patterns": [
+        "What should I do after a cyclone?",
+        "What precautions should I take after a cyclone hits?",
+        "How to stay safe after a cyclone?",
+        "What to do after a cyclone",
+        "Safety precautions after a cyclone",
+        "How to recover after a cyclone?"
+      ],
+      "responses": [
+        "Here are some precautions you should take after a cyclone:\n 1. Wait for the All Clear:  Wait for the official 'all clear' signal from local authorities before venturing outside. \n 2. Beware of Damaged Structures:  Avoid entering damaged buildings as they may be structurally unsound. \n 3. Watch for Downed Power Lines:  Be cautious of downed power lines and electrical wires, as they pose a serious electrocution hazard. \n 4. Report Gas Leaks:  If you smell gas, report it to the authorities immediately. Do not attempt to turn on any appliances. \n 5. Boil Drinking Water:  Boil all drinking water for at least one minute to kill any potential contaminants. \n 6. Beware of Flooded Areas:  Avoid flooded areas and standing water, as they may be contaminated or contain hidden dangers. \n 7. Wear Protective Clothing:  Wear sturdy shoes and gloves when cleaning up debris to protect yourself from injuries. \n 8. Take Photos of Damage:  Document any property damage with photos for insurance purposes. \n 9. Help Others:  Assist your neighbors and community members who may need help with cleanup or recovery efforts.",
+        "Following a cyclone, prioritize your safety. Wait for the official all-clear before going outside. Damaged buildings and downed power lines pose hazards. Report gas leaks and boil drinking water. Avoid flooded areas and wear protective clothing while cleaning up. Document damage and help others in your community."
+      ],
+      "context": [
+        "cyclone",
+        "safety",
+        "precautions",
+        "recovery",
+        "damage",
+        "flooded areas"
+      ]
+    },
+    {
+      "tag": "precautions_after_cyclone",
+      "patterns": [
+        "What should I do after a cyclone?",
+        "What precautions should I take after a cyclone hits?",
+        "How to stay safe after a cyclone?",
+        "What to do after a cyclone",
+        "Safety precautions after a cyclone",
+        "How to recover after a cyclone?"
+      ],
+      "responses": [
+        "Here are some precautions you should take after a cyclone:\n 1. Wait for the All Clear:  Wait for the official 'all clear' signal from local authorities before venturing outside. \n 2. Beware of Damaged Structures:  Avoid entering damaged buildings as they may be structurally unsound. \n 3. Watch for Downed Power Lines:  Be cautious of downed power lines and electrical wires, as they pose a serious electrocution hazard. \n 4. Report Gas Leaks:  If you smell gas, report it to the authorities immediately. Do not attempt to turn on any appliances. \n 5. Boil Drinking Water:  Boil all drinking water for at least one minute to kill any potential contaminants. \n 6. Beware of Flooded Areas:  Avoid flooded areas and standing water, as they may be contaminated or contain hidden dangers. \n 7. Wear Protective Clothing:  Wear sturdy shoes and gloves when cleaning up debris to protect yourself from injuries. \n 8. Take Photos of Damage:  Document any property damage with photos for insurance purposes. \n 9. Help Others:  Assist your neighbors and community members who may need help with cleanup or recovery efforts.",
+        "Following a cyclone, prioritize your safety. Wait for the official all-clear before going outside. Damaged buildings and downed power lines pose hazards. Report gas leaks and boil drinking water. Avoid flooded areas and wear protective clothing while cleaning up. Document damage and help others in your community."
+      ],
+      "context": [
+        "cyclone",
+        "safety",
+        "precautions",
+        "recovery",
+        "damage",
+        "flooded areas"
+      ]
+    },
+    {
+      "tag": "recovery, rebuild after cyclone",
+      "patterns": [
+        "What to do after the 'All Clear' is issued following a cyclone?",
+        "What precautions should I take during the recovery phase after a cyclone?",
+        "How to ensure safety and recovery after a cyclone?"
+      ],
+      "responses": [
+        "After the 'All Clear' is issued following a cyclone, pay attention to the following recovery measures:\n 1. Check Road Conditions: Ensure that roads leading to your home are recommended for travel by local authorities before heading back.\n 2. Assess Power Lines: Verify the safety of power lines before using electricity to prevent electrocution hazards.\n 3. Confirm Transport Arrangements: Use approved transportation arrangements provided by authorities for safe travel.\n 4. Ensure Drinking Water: Confirm the availability of pure drinking water from safe sources to prevent waterborne illnesses.\n 5. Check Sewage Lines: Ensure that sewage lines are functioning properly to maintain sanitation and prevent contamination.\n 6. Watch for Epidemics: Stay informed about any epidemic spread in the area and take necessary precautions to prevent disease transmission.\n 7. Ensure Neighbor Safety: Check on the safety of your neighbors to provide assistance if needed and foster community support during recovery."
+      ],
+      "context": [
+        "recovery",
+        "safety",
+        "cyclone aftermath",
+        "precautions",
+        "neighbor safety",
+        "transportation",
+        "drinking water",
+        "power lines"
+      ]
+    },
+    {
+      "tag": "cyclone emergency kit",
+      "patterns": [
+        "What should be included in an emergency kit?",
+        "What items are essential for an emergency kit?",
+        "What should I pack in my emergency kit?"
+      ],
+      "responses": [
+        "An emergency kit should include the following items:\n 1. Battery Operated Torch\n 2. Extra Batteries\n 3. Battery Operated Radio\n 4. First Aid Kit and Essential Medicines\n 5. Important Papers (Ration Card, Voter ID Card, Aadhar Card, etc.)\n 6. Emergency Food (Dry Items) and Water (Packed and Sealed)\n 7. Candles and Matches in a Waterproof Container\n 8. Knife\n 9. Chlorine Tablets or Powdered Water Purifiers\n 10. Cash, Aadhar Card, and Ration Card\n 11. Thick Ropes and Cords\n 12. Shoes"
+      ],
+      "context": [
+        "emergency preparedness",
+        "emergency supplies",
+        "survival kit",
+        "emergency essentials"
+      ]
+    },
+    {
+      "tag": "Earthquake defination",
+      "patterns": [
+        "What is plate tectonics?",
+        "Explain the concept of plate tectonics.",
+        "How do plate tectonics work?",
+        "What are the major plates of Earth's lithosphere?",
+        "How many types of plate boundaries are there?",
+        "What causes earthquakes in the context of plate tectonics?",
+        "Why do tsunamis occur in some plate boundary interactions?"
+      ],
+      "responses": [
+        "Plate tectonics is the scientific theory that describes the movement and interaction of Earth's lithospheric plates. These plates, which make up the Earth's outer shell, move around on the semi-fluid asthenosphere beneath them. The movement is primarily driven by the flow of mantle material, and it causes various geological phenomena such as earthquakes, volcanoes, and mountain formation.",
+        "The major plates of Earth's lithosphere include the Pacific Plate, North American Plate, Eurasian Plate, African Plate, South American Plate, Antarctic Plate, and Indo-Australian Plate.",
+        "There are three main types of plate boundaries: divergent boundaries, convergent boundaries, and transform boundaries.",
+        "Earthquakes occur in plate tectonics due to stress and friction at plate boundaries, which prevent smooth movement and result in the sudden release of energy in the form of seismic waves.",
+        "Tsunamis occur in some plate boundary interactions, such as at convergent boundaries where one plate is forced beneath another, because vertical motion generates large, destructive ocean waves."
+      ],
+      "context": [
+        "geology",
+        "earth science",
+        "plate boundaries",
+        "earthquakes",
+        "tsunamis",
+        "volcanoes"
+      ]
+    },
+    {
+      "tag": "tsunami management guidelines",
+      "patterns": [
+        "What are the Tsunami Risk Management Guidelines formulated after the 2004 tsunami?",
+        "Can you explain the recommendations of the NDMA's Tsunami Risk Management Guidelines?",
+        "What measures are outlined in the Tsunami Risk Management Guidelines?",
+        "What prompted the formulation of the Tsunami Risk Management Guidelines by NDMA?",
+        "What are the key components of the Tsunami Risk Management Guidelines?",
+        "How do the Guidelines recommend addressing structural mitigation measures?",
+        "What role does the Disaster Management Act 2005 play in mainstreaming tsunami risk management?"
+      ],
+      "responses": [
+        "The Tsunami Risk Management Guidelines were formulated by NDMA in response to the 2004 tsunami. They outline inter-agency roles and responsibilities, preparedness, mitigation, and response strategies for managing tsunami risks. The guidelines focus on awareness generation, capacity building, education, training, and research & development. They also address effective dissemination of tsunami alert messages, structural mitigation measures, construction standards, land use practices, bioshields, mangrove regeneration, and emergency response mechanisms. Additionally, the guidelines emphasize mainstreaming tsunami risk management into disaster management plans as per the Disaster Management Act 2005.",
+        "The Tsunami Risk Management Guidelines were prompted by the 2004 tsunami.",
+        "The key components of the Guidelines include inter-agency roles, awareness generation, capacity building, alert dissemination, structural mitigation, construction standards, land use practices, emergency response mechanisms, and mainstreaming into disaster management plans.",
+        "The Guidelines recommend strategies for designing and constructing new structures to withstand tsunamis, as well as protecting lifeline and priority structures along the seafront.",
+        "The Disaster Management Act 2005 is utilized to mainstream concerns of tsunami risk management into disaster management plans at various levels."
+      ],
+      "context": [
+        "tsunami",
+        "risk management",
+        "NDMA",
+        "guidelines",
+        "emergency response",
+        "disaster management"
+      ]
+    },
+    {
+      "tag": "tsunami risk management",
+      "patterns": [
+        "What are the Tsunami Risk Management Guidelines?",
+        "How does India manage tsunami risks?",
+        "What is NDMA's role in tsunami preparedness?",
+        "How do the guidelines promote awareness and preparedness?",
+        "What are some structural mitigation measures in the guidelines?",
+        "How do the guidelines encourage community involvement?"
+      ],
+      "responses": [
+        "The National Disaster Management Authority (NDMA) formulated Tsunami Risk Management Guidelines following the 2004 tsunami. These guidelines outline various actions to improve India's preparedness for tsunamis.",
+        "The Tsunami Risk Management Guidelines cover a range of aspects, including:\n * Inter-agency roles and responsibilities\n * Tsunami risk preparedness, mitigation, and response \n * Public awareness generation \n * Capacity building through education and training \n * Research and development for better risk management \n * Effective dissemination of tsunami alerts \n * Structural mitigation measures for new and existing structures \n * Promoting community involvement in disaster preparedness",
+        "The guidelines promote awareness and preparedness through:\n * Public education campaigns \n * Training programs for communities and officials \n * Development of hazard maps and evacuation plans",
+        "Structural mitigation measures include:\n * Guidance on design and construction of new tsunami-resistant structures \n * Strategies to protect critical infrastructure along the coast",
+        "The guidelines encourage community involvement by:\n * Recommending participation in bioshield development (planting trees/mangroves) \n * Supporting efficient land-use practices \n * Highlighting the role of local volunteers and disaster response forces"
+      ],
+      "context": [
+        "tsunami",
+        "risk management",
+        "NDMA",
+        "preparedness",
+        "mitigation",
+        "response",
+        "awareness",
+        "community"
+      ]
+    },
+    {
+      "tag": "recover guidlines after disater",
+      "patterns": [
+        "What are the recovery and building guidelines after a disaster?",
+        "What are the key steps to recovery and building after a disaster?",
+        "How should one assess injuries and provide first aid during the recovery phase?",
+        "What precautions should be taken before re-entering a building after a disaster?",
+        "What hazards should be checked for when re-entering a building after a disaster?"
+      ],
+      "responses": [
+        "The recovery and building guidelines after a disaster include the following steps:\n 1. Stay Informed: Continue to monitor weather updates and emergency information through a weather radio, Coast Guard station, or local media.\n 2. Check for Injuries: Assess yourself and others for injuries and provide first aid if necessary before assisting others.\n 3. Call for Professional Help: If someone needs rescue, call professionals with appropriate equipment to avoid further risks.\n 4. Assist Vulnerable Individuals: Help people who require special assistance, such as infants, elderly, disabled, or those without transportation.\n 5. Avoid Disaster Areas: Stay away from disaster areas to avoid hampering rescue operations and additional risks.\n 6. Limit Phone Usage: Use the telephone only for emergency calls to keep lines clear for essential communications.\n 7. Stay Out of Flooded Buildings: Avoid entering buildings surrounded by water as they may be structurally compromised.\n 8. Use Caution When Re-entering: Exercise caution when re-entering buildings, and wear protective clothing to prevent injuries.\n 9. Check for Hazards: Inspect buildings for potential hazards such as fire, gas leaks, electrical damage, and sewage issues.\n 10. Document Damage: Take photos of the damage for insurance claims and open windows and doors to aid in drying.\n 11. Clear Debris: Remove mud and debris before it solidifies to facilitate cleanup.\n 12. Check Food Supplies: Discard any food that may have come into contact with floodwater as it may be contaminated.\n 13. Prepare for Aftershocks: Expect aftershocks and stay vigilant, especially if the earthquake was of significant magnitude.\n 14. Monitor Animals: Keep animals under control and watch for any signs of distress or injury.",
+        "The key steps to recovery and building after a disaster include staying informed, checking for injuries, calling for professional help, assisting vulnerable individuals, avoiding disaster areas, limiting phone usage, staying out of flooded buildings, using caution when re-entering, checking for hazards, documenting damage, clearing debris, checking food supplies, preparing for aftershocks, and monitoring animals.",
+        "To assess injuries during the recovery phase, individuals should check themselves and others for any wounds or injuries and provide appropriate first aid before assisting others.",
+        "Before re-entering a building after a disaster, individuals should exercise caution, wear protective clothing, and carefully inspect the premises for any structural damage or hazards.",
+        "Hazards to check for when re-entering a building after a disaster include fire risks, gas leaks, electrical damage, sewage issues, loose debris, and contaminated food supplies."
+      ],
+      "context": [
+        "disaster recovery",
+        "building guidelines",
+        "emergency response",
+        "precautions",
+        "hazard assessment",
+        "injury assessment"
+      ]
+    },
+    {
+      "tag": "flood preparedness",
+      "patterns": [
+        "How can I prepare before a flood warning or for a flood?",
+        "Tips to protect my home from flooding",
+        "How can I protect my property from flood damage?",
+        "What should I do if a flood warning is issued?",
+        "What are some evacuation tips during a flood?"
+      ],
+      "responses": [
+        "Being prepared for a flood can minimize damage and ensure your safety. Here are some key steps for flood preparedness:\n  1. Develop a Flood Plan: Discuss and create a plan with your family that outlines evacuation routes, communication strategies, and meeting points in case of a flood.\n  2. Assemble a Flood Preparedness Kit:  Gather essential supplies like non-perishable food, bottled water, first-aid kit, medications, flashlight, batteries, sanitation items, and important documents in a waterproof container.",
+        "A flood preparedness kit should include:\n * Non-perishable food and bottled water for at least 3 days\n * First-aid kit and any necessary medications\n * Flashlight and extra batteries\n * Cash\n * Sanitation items like wipes and hygiene products\n * Important documents in waterproof containers\n * Battery-powered radio\n * Maps\n * Cell phone charger\n * Consider including items for pets as well.",
+        "Here are some ways to protect your property from flood damage:\n * Elevate belongings and furniture in flood-prone areas.\n * Install flood barriers around doorways and basements.\n * Backflow prevention valves can be installed on plumbing to prevent sewage backup.\n * Consider flood insurance for additional protection.",
+        "If a flood warning is issued, listen to local authorities and follow their instructions. Here are some additional tips:\n * Stay informed about the flood situation through weather updates and emergency broadcasts.\n * Move valuables and important documents to higher ground.\n * Turn off utilities if instructed to do so.\n * Evacuate if advised or if floodwaters begin to rise around your home.",
+        "Evacuation tips during a flood:\n * Follow designated evacuation routes and avoid flooded areas.\n * Do not drive through flooded roadways.\n * Listen to instructions from emergency personnel.\n * If stranded, stay calm and seek help by calling emergency services."
+      ],
+      "context": [
+        "flood",
+        "preparedness",
+        "prevention",
+        "evacuation",
+        "flood kit"
+      ]
+    },
+    {
+      "tag": "earthquake safety",
+      "patterns": [
+        "What to do during an earthquake?",
+        "How to protect yourself during an earthquake?",
+        "Earthquake safety tips for home",
+        "What's the safest place to be during an earthquake?",
+        "How to prepare your home for an earthquake?",
+        "What are some earthquake safety myths?"
+      ],
+      "responses": [
+        "Earthquakes can be frightening, but knowing how to react can keep you safe. Here are some earthquake safety tips:\n  1. Drop, Cover, and Hold On: If you feel the ground shaking, **Drop** to the ground, take **Cover** under a sturdy table or desk, and **Hold On** until the shaking stops. \n  2. Stay Away from Hazards: Avoid windows, mirrors, and hanging objects that could fall and injure you.",
+        "Here's how to prepare your home for an earthquake:\n * Secure furniture and heavy objects to walls.\n * Install breakaway straps for cabinets.\n * Identify safe zones in each room, like under sturdy tables.\n * Have a designated earthquake preparedness kit ready.",
+        "Some earthquake safety myths include:\n * Myth: Earthquakes only happen in California. (Earthquakes can occur anywhere in the world.)\n * Myth: Doorways are safe havens."
+      ],
+      "context" : [""]
+    },
+    {
+      "tag": "evacuation procedures",
+      "patterns": [
+        "What should I do if there's an evacuation order?",
+        "How do I prepare for an evacuation?",
+        "What to bring during an evacuation?",
+        "Where do I go during an evacuation?",
+        "How long should I expect to be evacuated?",
+        "What can I do with my pets during an evacuation?"
+      ],
+      "responses": [
+        "Here's what to do if there's an evacuation order: \n 1. Follow instructions from emergency officials. They will provide details on evacuation routes, shelters, and safety precautions. \n 2. Assemble your emergency kit, including essentials like food, water, first-aid supplies, medications, and important documents. \n 3. If time permits, secure your home by shutting off utilities, locking doors, and bringing in outdoor furniture.",
+        "The evacuation duration depends on the severity of the situation. Emergency officials will provide updates on the estimated timeframe.",
+        "Develop a plan for your pets during an evacuation. Consider creating a pet emergency kit with food, water, leash, and medication. Identify pet-friendly shelters or make arrangements with friends or family who can accommodate your pets."
+      ],
+      "context": [
+        "evacuation",
+        "emergency preparedness",
+        "emergency kit",
+        "shelters",
+        "pets"
+      ]
+    },
+    {
+      "tag": "safety during flood",
+      "patterns": [
+        "What to do during a flood?",
+        "How to stay safe in a flood?",
+        "What are the dangers of floods?",
+        "How can I prepare my home for a flood?",
+        "What should I do after a flood?",
+        "How can I prevent flood damage to my property?",
+        "What are signs of flood damage in a building?"
+      ],
+      "responses": [
+        "Here are some flood safety tips: \n 1. Stay informed about flood warnings and evacuation orders. \n 2. Move to higher ground if possible. \n 3. Avoid driving through flooded areas. Just 6 inches of moving water can knock you off your feet. \n 4. Do not walk in floodwater. It may be contaminated or contain hidden dangers. \n 5. Turn off utilities at the main breaker box if your home is flooded.",
+        "Following a flood, prioritize safety. Wait for the all-clear before returning home. Check for injuries and call emergency services if needed. Avoid flooded areas and wear protective clothing while cleaning up debris. Document damage with photos for insurance claims.",
+        "Flood mitigation strategies include elevating your home, installing flood barriers, and waterproofing your basement. Regularly clean gutters and downspouts to divert water away from your foundation.",
+        "Signs of flood damage include water stains on walls or floors, warped wood, cracks in foundation, and lingering moisture or mold growth."
+      ],
+      "context": [
+        "flood",
+        "safety",
+        "evacuation",
+        "water damage",
+        "mitigation"
+      ]
+    },
+    {
+      "tag": "dos and donts cyclone",
+      "patterns": [
+        "What are the dos and don'ts during a cyclone?",
+        "Dos and don'ts for cyclone safety",
+        "Cyclone safety guidelines",
+        "What should I avoid doing during a cyclone?",
+        "What are the important things to remember during a cyclone?",
+        "What actions should be avoided for cyclone safety?"
+      ],
+      "responses": [
+        "Dos:\n1. Listen to radio updates for information and follow official instructions.\n2. Secure your house by boarding up windows and reinforcing doors.\n3. Stay indoors during the cyclone and away from windows.\n4. Keep emergency supplies handy, including food, water, and batteries.\n5. Remain calm and wait for the cyclone to pass.\n\nDon'ts:\n1. Don't venture outside during the cyclone, even if the winds appear to calm down.\n2. Don't spread rumors or rely on unofficial information.\n3. Don't delay evacuation if instructed to do so by authorities.\n4. Don't forget to switch off electrical mains to avoid hazards.\n5. Don't ignore post-cyclone safety measures, such as clearing debris and reporting losses.",
+        "During a cyclone, it's important to avoid going outside, spreading rumors, delaying evacuation, leaving electrical mains on, and ignoring post-cyclone safety measures."
+      ],
+      "context": [
+        "cyclone safety",
+        "emergency procedures",
+        "disaster preparedness"
+      ]
+    },
+    {
+      "tag": "cyclone dos and donts",
+      "patterns": [
+        "What are the do's and don'ts before, during, and after a cyclone?",
+        "Can you provide guidelines for cyclone preparedness?",
+        "What actions should be taken in the event of a cyclone threat?",
+        "What precautions should be taken before a cyclone?",
+        "How should one stay informed during a cyclone threat?",
+        "What actions should be taken during a cyclone evacuation?",
+        "What measures should be followed post-cyclone?"
+      ],
+      "responses": [
+        "Cyclone preparedness involves following a set of guidelines for various stages, including before, during, and after the cyclone. Here are the do's and don'ts:\n\nBefore the Cyclone Season:\n- Check the house for loose tiles and make necessary repairs to doors and windows.\n- Remove dead branches and secure loose objects that can fly in strong winds.\n- Keep wooden boards ready for boarding up windows if needed.\n- Ensure you have hurricane lanterns, torches, dry cells, and non-perishable food stocked.\n\nDuring the Cyclone Threat:\n- Listen to radio warnings and stay informed about the cyclone's progress.\n- Pass on official information and avoid spreading rumors.\n- Stay alert and monitor warnings for 24 hours if a cyclone alert is issued.\n\nWhen Cyclone Alerts Are Issued:\n- Move away from low-lying areas and head to high ground or shelter.\n- Board up windows, secure doors, and store loose objects safely.\n- Store extra food and drinking water, and move valuables to upper floors if evacuating.\n\nDuring the Cyclone:\n- Stay indoors and do not venture outside, even if the winds calm down.\n\nWhen Evacuation is Instructed:\n- Pack essentials for yourself and your family and head to designated shelters.\n- Follow instructions of authorities and remain in the shelter until it's safe to leave.\n\nPost-Cyclone Measures:\n- Remain in the shelter until informed it's safe to return home.\n- Get vaccinated against diseases and avoid loose wires and debris.\n- Clear debris from your premises and report losses to appropriate authorities.",
+        "Before a cyclone, precautions include securing loose objects, boarding up windows, stocking up on essentials, and ensuring safety measures are in place.",
+        "To stay informed during a cyclone threat, listen to radio warnings, avoid spreading rumors, and monitor official information sources.",
+        "During a cyclone evacuation, pack essentials, head to designated shelters, and follow instructions from authorities.",
+        "Post-cyclone measures include remaining in shelters until informed it's safe to return, getting vaccinated, avoiding hazards, clearing debris, and reporting losses to authorities."
+      ],
+      "context": [
+        "cyclone",
+        "emergency preparedness",
+        "evacuation",
+        "post-disaster measures",
+        "emergency response"
+      ]
+    },
+    {
+      "tag": "cyclone tips",
+      "patterns": [
+        "Do you have any additional cyclone safety tips?",
+        "Random cyclone safety advice",
+        "Cyclone safety tip",
+        "What's a creative way to prepare for a cyclone?",
+        "Do you have any unconventional cyclone safety tips?",
+        "Can you suggest a unique cyclone preparedness strategy?",
+        "How can I protect my electronic devices during a cyclone?",
+        "What should I do if I have pets during a cyclone?",
+        "Can you provide advice on storing important documents during a cyclone?",
+        "Is there a specific way to secure outdoor furniture before a cyclone?"
+      ],
+      "responses": [
+        "Here's a random cyclone safety tip: Before a cyclone, fill your bathtub with water. This water can be used for sanitation purposes if regular water supply is disrupted during the cyclone.",
+        "An unconventional way to prepare for a cyclone is to fill your bathtub with water before the storm hits. This water can serve as an additional source for sanitation needs if regular water supply is interrupted.",
+        "Protect your electronic devices during a cyclone by unplugging them and storing them in waterproof containers or bags. Elevate them off the ground to prevent water damage.",
+        "If you have pets during a cyclone, ensure they are indoors and have enough food, water, and medications to last several days. Keep them in a safe room with you during the storm.",
+        "Store important documents in waterproof containers or sealable plastic bags. Consider keeping digital copies stored securely in the cloud or on a portable hard drive.",
+        "Secure outdoor furniture before a cyclone by bringing it indoors or tying it down securely. Remove any objects that could become projectiles in strong winds.",
+        "Consider installing hurricane straps or anchors to secure your home's roof to the walls. This can help prevent roof uplift during strong winds.",
+        "Prepare a pet emergency kit with food, water, medications, and comfort items. Have a carrier or crate ready for transport if evacuation is necessary.",
+        "Protect important documents by storing them in a fireproof and waterproof safe or by keeping copies in a secure off-site location.",
+        "Secure outdoor furniture by bringing lightweight items indoors and anchoring heavier items to the ground or to a sturdy structure."
+      ]
+    },
+    {
+      "tag": "cyclone warning",
+      "patterns": [
+      "How do I know if a cyclone is coming?",
+      "What are the signs of an approaching cyclone?",
+      "Where can I get cyclone alerts?",
+      "Is there a cyclone warning system?"
+      ],
+      "responses": [
+      "Stay informed about cyclones through local news, weather updates, and official alerts from meteorological agencies. Pay attention to signs such as strong winds, heavy rain, and changing sky conditions.",
+      "You can receive cyclone alerts through various channels such as weather apps, radio broadcasts, and official notifications from meteorological agencies. Stay informed and heed warnings to stay safe."
+      ],
+      "context": [
+      "cyclone preparedness",
+      "emergency planning",
+      "disaster readiness"
+      ]
+      },
+      {
+        "tag": "cyclone safety",
+        "patterns": [
+          "What should I do to prepare for a cyclone?",
+          "How can I stay safe during a cyclone?",
+          "What are some essential items to have in a cyclone emergency kit?",
+          "Do you have any tips for securing my home during a cyclone?",
+          "What should I do if I'm caught outside during a cyclone?",
+          "How can I keep my family safe during a cyclone?",
+          "Is there a specific evacuation plan I should follow during a cyclone?",
+          "What are the dangers of storm surges during a cyclone?",
+          "Can you provide advice on communicating with loved ones during a cyclone?",
+          "How can I help my community prepare for a cyclone?"
+        ],
+        "responses": [
+          "To prepare for a cyclone, secure loose objects outdoors, stock up on non-perishable food and water, and create an emergency kit with essentials like flashlights, batteries, and a first aid kit.",
+          "During a cyclone, stay indoors, away from windows, and in a room without any exterior walls. Listen to weather updates and follow evacuation orders if necessary.",
+          "Essential items for a cyclone emergency kit include water, non-perishable food, a first aid kit, flashlight with extra batteries, personal hygiene items, and important documents.",
+          "To secure your home during a cyclone, reinforce doors and windows, trim trees and shrubs, and clear gutters and drains. Consider installing storm shutters or plywood for extra protection.",
+          "If caught outside during a cyclone, seek shelter in a sturdy building or lie flat in a low-lying area away from trees and structures. Avoid bridges and overpasses.",
+          "To keep your family safe during a cyclone, create a family emergency plan, designate a safe room in your home, and practice evacuation drills.",
+          "Follow the evacuation plan provided by local authorities. Be familiar with evacuation routes and designated shelters. Take necessary supplies with you, including medications and important documents.",
+          "Storm surges during a cyclone can lead to flooding and coastal erosion. Stay away from coastal areas, and move to higher ground if instructed by authorities.",
+          "Keep communication devices charged and have a designated meeting place in case of separation. Use text messages or social media to communicate, as phone lines may be overloaded.",
+          "Help your community prepare for a cyclone by volunteering with local disaster relief organizations, assisting neighbors with preparations, and participating in community drills and exercises."
+        ]
+      },
+    {
+      "tag": "post_cyclone_measures",
+      "patterns": [
+        "What should be done after a cyclone?",
+        "Can you provide post-cyclone measures?",
+        "What actions should be taken after a cyclone?"
+      ],
+      "responses": [
+        "After a cyclone, it's important to take the following post-cyclone measures:\n\n1. Remain in Shelter: Stay in the shelter until authorities inform you that it's safe to return home.\n2. Get Vaccinated: Inoculate yourself against diseases as soon as possible to prevent outbreaks.\n3. Avoid Loose Wires: Strictly avoid any loose or dangling wires from lamp posts to prevent electrical hazards.\n4. Drive Carefully: If you need to drive, do so cautiously, as roads may be damaged or obstructed.\n5. Clear Debris: Immediately clear debris from your premises to prevent further hazards and facilitate recovery efforts.\n6. Report Losses: Report any damages or losses accurately to the appropriate authorities for assistance and support."
+      ],
+      "questions": [
+        "What should I do immediately after a cyclone?",
+        "How can I ensure safety after a cyclone?",
+        "What precautions should be taken post-cyclone?"
+      ],
+      "answers": [
+        "Immediately after a cyclone, stay in the shelter until authorities declare it safe to return, get vaccinated against diseases, avoid loose wires, drive carefully if necessary, clear debris promptly, and report losses accurately to authorities."
+      ],
+      "context": [
+        "cyclone",
+        "post-disaster measures",
+        "emergency response",
+        "safety precautions"
+      ]
+    },
+    {
+      "tag": "earthquake definition",
+      "patterns": [
+        "What is an earthquake?",
+        "Can you define earthquake?",
+        "I'm curious, what exactly is an earthquake?",
+        "Define earthquake for me, please.",
+        "Could you explain what an earthquake is?",
+        "What do you mean by earthquake?"
+      ],
+      "responses": [
+        "An earthquake is the shaking of the surface of the Earth resulting from a sudden release of energy in the Earth's lithosphere that creates seismic waves.",
+        "Earthquakes are caused by the sudden release of energy stored in the Earth's crust, resulting in seismic waves that propagate through the Earth's layers, causing ground shaking.",
+        "Simply put, an earthquake is a sudden and violent shaking of the ground, often caused by movements of tectonic plates beneath the Earth's surface.",
+        "An earthquake occurs when there is a sudden release of energy in the Earth's crust, typically due to movement along geological fault lines.",
+        "An earthquake is a natural phenomenon characterized by the shaking of the ground caused by movements of the Earth's crust. These movements can result in varying degrees of damage and destruction."
+      ],
+      "context": [
+        "earthquake basics",
+        "geological events",
+        "natural disasters"
+      ]
+    },
+    
+  {
+    "tag": "before earthquake",
+    "context": [
+      "earthquake preparedness",
+      "disaster readiness",
+      "emergency planning"
+    ],
+    "patterns": [
+      "What should I do before an earthquake?",
+      "Can you provide tips for earthquake preparedness?",
+      "How can I prepare for an earthquake?",
+      "What are some steps to take before an earthquake?",
+      "Before an earthquake, what actions should I take?",
+      "I want to be ready for an earthquake, what should I do beforehand?",
+      "Could you give me some advice on earthquake preparedness?",
+      "What measures should I take to ensure safety before an earthquake?",
+      "How can I secure my home before an earthquake?",
+      "Do you have any suggestions for earthquake readiness?"
+    ],
+    "responses": [
+      "Before an earthquake, it's essential to secure heavy items like bookshelves and water heaters to prevent them from falling and causing injuries.",
+      "Make sure to have an emergency kit prepared with essentials such as water, non-perishable food, flashlight, batteries, first aid supplies, and important documents.",
+      "Identify safe spots in your home or workplace, such as under sturdy furniture or against interior walls, and practice 'Drop, Cover, and Hold On' drills with your family or colleagues.",
+      "Develop a family communication plan and establish an out-of-area contact person to check in with after an earthquake.",
+      "Create an emergency plan that includes evacuation routes, meeting points, and contact information for local emergency services. Ensure all family members are aware of the plan.",
+      "Before an earthquake, conduct a home hazard hunt to identify and mitigate potential risks such as unsecured furniture, hanging objects, and flammable materials.",
+      "Stock up on supplies such as food, water, medications, and pet supplies to sustain your household for at least 72 hours after an earthquake.",
+      "Securely anchor heavy appliances and furniture to walls to prevent them from toppling over during shaking.",
+      "Keep a pair of sturdy shoes and a flashlight by your bed to access in case of an earthquake during the night.",
+      "Stay informed about earthquake risks in your area and participate in community drills and preparedness events."
+    ]
+  },
+  {
+    "tag": "after earthquake",
+    "context": [
+      "earthquake response",
+      "disaster recovery",
+      "emergency assistance"
+    ],
+    "patterns": [
+      "What should I do after an earthquake?",
+      "Can you provide guidance on post-earthquake actions?",
+      "How should I respond after an earthquake?",
+      "What are the steps to take after an earthquake?",
+      "After an earthquake, what actions should I prioritize?",
+      "I need advice on what to do after an earthquake, can you help?",
+      "What immediate actions should I take following an earthquake?",
+      "Could you give me some tips for post-earthquake response?",
+      "What are the safety precautions to follow after an earthquake?",
+      "Do you have any recommendations for post-earthquake recovery?"
+    ],
+    "responses": [
+      "After an earthquake, check yourself and others for injuries and administer first aid as necessary. Be cautious of aftershocks and secondary hazards.",
+      "Assess your surroundings for safety hazards such as gas leaks, electrical damage, or structural instability. Evacuate if necessary and seek shelter in an open area.",
+      "Listen to local authorities for emergency information and follow evacuation orders if issued. Be prepared to render assistance to others in need.",
+      "Contact loved ones to let them know you are safe and check on neighbors, especially those who may require assistance such as the elderly or individuals with disabilities.",
+      "If trapped, use a whistle or make noise to signal your location to rescuers. Avoid unnecessary movement to prevent kicking up dust or debris.",
+      "Document any damage to your property by taking photographs or videos for insurance purposes. Make temporary repairs to prevent further damage if safe to do so.",
+      "Stay informed about emergency updates and community resources available for recovery assistance such as shelters, food distribution, and medical services.",
+      "Be cautious when re-entering buildings and inspect them for structural damage before resuming occupancy. Look for cracks, leaning walls, and other signs of instability.",
+      "Stay away from damaged areas, downed power lines, and debris. Keep roads clear for emergency responders and refrain from sightseeing in affected neighborhoods.",
+      "Seek emotional support and counseling if needed to cope with the stress and trauma of the earthquake. Reach out to local support services and mental health professionals."
+    ]
+  },
+  {
+    "tag": "during earthquake",
+    "context": [
+      "earthquake response",
+      "emergency actions",
+      "safety precautions"
+    ],
+    "patterns": [
+      "What should I do during an earthquake?",
+      "Can you provide guidance on actions to take during an earthquake?",
+      "How should I respond while an earthquake is happening?",
+      "What are the safety measures to follow during an earthquake?",
+      "During an earthquake, what should I prioritize?",
+      "I'm in the midst of an earthquake, what do I do?",
+      "What immediate actions should I take during an earthquake?",
+      "Could you give me some tips for staying safe during an earthquake?",
+      "What are the dos and don'ts during an earthquake?",
+      "Do you have any recommendations for staying calm during an earthquake?"
+    ],
+    "responses": [
+      "During an earthquake, seek shelter immediately by dropping to the ground, taking cover under a sturdy piece of furniture, and holding on until the shaking stops.",
+      "Stay indoors and away from windows, exterior walls, and objects that may fall. If you're outside, move to an open area away from buildings, trees, and power lines.",
+      "If you're in bed during an earthquake, stay there and cover your head and neck with a pillow. Do not attempt to run or exit the building until the shaking subsides.",
+      "Protect your head and neck from falling debris by covering them with your arms. If you're in a wheelchair, lock the wheels and protect your head.",
+      "If you're in a crowded area, stay calm and avoid panicking. Move slowly to the nearest safe spot and assist others if possible.",
+      "If you're driving, pull over to a clear area away from overpasses, bridges, and buildings. Stay inside your vehicle until the shaking stops, then proceed with caution.",
+      "Avoid using elevators during an earthquake as they may become stuck or malfunction. Use the stairs instead, but do so cautiously.",
+      "If you're indoors, avoid lighting candles or matches to prevent fires. Be prepared for aftershocks and remain in a safe location until it's safe to move.",
+      "If you're in a high-rise building, take cover under a desk or table and stay away from windows. Do not use elevators and be prepared for swaying or shaking.",
+      "Stay calm and reassure others, especially children and elderly individuals, during the earthquake. Focus on staying safe and following safety procedures."
+    ]
+  },
+  {
+    "tag": "Earthquake safety measures",
+    "context": [
+      "earthquake preparedness",
+      "emergency actions",
+      "safety precautions"
+    ],
+    "patterns": [
+      "What are some earthquake safety measures?",
+      "Can you provide guidance on earthquake safety measures?",
+      "How can I ensure safety during an earthquake?",
+      "What measures should I take to stay safe during an earthquake?",
+      "During an earthquake, what safety precautions should I follow?",
+      "I want to learn about earthquake safety, where should I start?",
+      "Could you give me some tips for earthquake safety?",
+      "What are the key safety measures to remember during an earthquake?",
+      "Do you have any recommendations for ensuring safety during earthquakes?",
+      "How can I prepare myself and my family for earthquake safety?"
+    ],
+    "responses": [
+      "Earthquake safety measures include securing heavy objects, creating an emergency kit, identifying safe spots indoors, practicing evacuation drills, and staying informed about local risks.",
+      "To ensure safety during an earthquake, secure furniture and appliances, have an emergency plan in place, stock up on essential supplies, and know how to respond during shaking.",
+      "Stay indoors during an earthquake, take cover under sturdy furniture, and hold on until the shaking stops. Avoid windows, glass, and objects that may fall.",
+      "Before an earthquake, secure heavy items, create a family emergency plan, prepare an emergency kit, and familiarize yourself with evacuation routes and safe spots in your home.",
+      "During an earthquake, prioritize your safety by taking cover, holding on to sturdy furniture, and staying away from hazards such as windows, tall furniture, and electrical appliances.",
+      "Start by securing heavy items such as bookshelves and water heaters to prevent them from toppling over. Then, create an emergency kit with essential supplies and practice evacuation drills with your family.",
+      "To ensure earthquake safety, secure heavy objects to walls or floors, fasten shelves to walls, strap water heaters, and install latches on cabinets to prevent contents from falling out.",
+      "Remember to drop, cover, and hold on during an earthquake. Stay indoors until the shaking stops, then assess your surroundings for hazards and follow emergency instructions.",
+      "Stay informed about earthquake risks in your area, participate in community preparedness events, and update your emergency kit regularly with fresh supplies.",
+      "Prepare yourself and your family for earthquake safety by discussing and practicing emergency plans, securing your home, and staying informed about local earthquake risks and safety procedures."
+    ]
+  },
+  {
+    "tag": "earthquake tips",
+    "context": [
+      "earthquake preparedness",
+      "emergency actions",
+      "safety precautions"
+    ],
+    "patterns": [
+      "Do you have any earthquake safety tips?",
+      "Can you provide me with some earthquake tips?",
+      "What are some tips for staying safe during an earthquake?",
+      "I'm looking for advice on earthquake safety, can you help?",
+      "Any tips for preparing for an earthquake?",
+      "During an earthquake, what should I keep in mind?",
+      "How can I protect myself and my family during an earthquake?",
+      "Before an earthquake, what measures should I take?",
+      "What should I do if I'm indoors during an earthquake?",
+      "Can you give me some quick tips for earthquake preparedness?"
+    ],
+    "responses": [
+      "Here are some earthquake safety tips: Secure heavy furniture, create an emergency kit, identify safe spots indoors, practice evacuation drills, and stay informed about local risks.",
+      "To stay safe during an earthquake, remember to drop, cover, and hold on. Stay indoors, take cover under sturdy furniture, and avoid hazards such as windows and tall furniture.",
+      "Prepare for an earthquake by securing heavy items, creating an emergency plan, stocking up on essential supplies, and practicing evacuation drills with your family.",
+      "During an earthquake, prioritize your safety by taking cover under sturdy furniture, holding on until the shaking stops, and staying away from hazards such as windows and tall furniture.",
+      "Before an earthquake, secure heavy items, create a family emergency plan, prepare an emergency kit, and practice evacuation drills to ensure you're ready for any seismic event.",
+      "When indoors during an earthquake, take cover under sturdy furniture such as a table or desk, hold on until the shaking stops, and stay away from windows, glass, and tall furniture.",
+      "Protect yourself and your family during an earthquake by securing heavy items, creating an emergency plan, stocking up on essential supplies, and staying informed about local risks.",
+      "To prepare for an earthquake, secure heavy objects to walls or floors, fasten shelves to walls, strap water heaters, and install latches on cabinets to prevent contents from falling out.",
+      "If you're indoors during an earthquake, drop to the ground, take cover under sturdy furniture, and hold on until the shaking stops. Avoid doorways and windows.",
+      "Quick tips for earthquake preparedness include securing heavy furniture, creating an emergency kit, identifying safe spots indoors, and practicing evacuation drills with your family."
+    ]
+  },
+  {
+    "tag": "earthquake preparedness",
+    "context": [
+      "emergency planning",
+      "disaster readiness",
+      "safety precautions"
+    ],
+    "patterns": [
+      "How can I prepare for an earthquake?",
+      "What steps should I take for earthquake preparedness?",
+      "Can you provide guidance on earthquake preparedness?",
+      "What are the essentials for earthquake preparedness?",
+      "I want to be ready for an earthquake, what should I do?",
+      "What should be included in an earthquake preparedness plan?",
+      "Could you give me some tips for earthquake preparedness?",
+      "What measures should I take to ensure earthquake readiness?",
+      "Do you have any recommendations for earthquake preparedness?",
+      "How can I create an earthquake preparedness kit?"
+    ],
+    "responses": [
+      "To prepare for an earthquake, secure heavy items, create an emergency plan, stock up on essential supplies, and practice evacuation drills with your family.",
+      "Earthquake preparedness involves securing heavy furniture, creating a family emergency plan, preparing an emergency kit, and staying informed about local earthquake risks.",
+      "Ensure earthquake preparedness by identifying safe spots indoors, practicing 'Drop, Cover, and Hold On' drills, securing heavy furniture, and having an emergency kit ready.",
+      "Essentials for earthquake preparedness include water, non-perishable food, first aid supplies, flashlight, batteries, medications, important documents, and a communication plan.",
+      "To be ready for an earthquake, secure heavy items, create an emergency plan with evacuation routes and meeting points, and assemble an emergency kit with essential supplies.",
+      "An earthquake preparedness plan should include securing heavy items, creating a family communication plan, practicing evacuation drills, and staying informed about local risks.",
+      "Tips for earthquake preparedness include securing heavy furniture, creating an emergency kit with essential supplies, practicing evacuation drills, and staying informed.",
+      "Ensure earthquake readiness by securing heavy items to walls or floors, fastening shelves to walls, strapping water heaters, and installing latches on cabinets.",
+      "Recommendations for earthquake preparedness include securing heavy furniture, creating an emergency plan, assembling an emergency kit, and staying informed about local risks.",
+      "Create an earthquake preparedness kit by gathering water, non-perishable food, first aid supplies, flashlight, batteries, medications, important documents, and other essentials."
+    ]
+  },
+  {
+    "tag": "disaster or calamity emergency information",
+    "patterns": [
+      "How can I stay updated with emergency information?",
+      "What sources can I rely on for emergency updates?",
+      "What should I do to stay informed during a disaster?",
+      "Can you recommend ways to access emergency information?",
+      "Where can I find reliable updates during an emergency?",
+      "What radio stations broadcast emergency updates?",
+      "How can I ensure I receive accurate information during a disaster?"
+    ],
+    "responses": [
+      "Continue using a Weather Radio or stay tuned to a Coast Guard emergency frequency station or a local radio or television station for updated emergency information.",
+      "Check yourself for injuries and get first aid if necessary before helping injured or trapped persons.",
+      "If someone needs to be rescued, call professionals with the right equipment to help. Many people have been killed or injured trying to rescue others in flooded areas.",
+      "Help people who require special assistance—Infants, elderly people, those without transportation, large families who may need additional help in an emergency situation, people with disabilities, and the people who care for them.",
+      "Avoid disaster areas. Your presence might hamper rescue and other emergency operations and put you at further risk from the residual effects of floods, such as contaminated water, crumbled roads, landslides, mudflows, and other hazards.",
+      "Use the telephone only for emergency calls. Telephone lines are frequently overwhelmed in disaster situations. They need to be clear for emergency calls to get through.",
+      "Stay out of a building if water remains around it. Tsunami water, like floodwater, can undermine foundations, causing buildings to sink, floors to crack, or walls to collapse."
+    ]
+  },
+  {
+    "tag": "first aid injuried during disater",
+    "patterns": [
+      "What should I do if I or someone else is injured during a disaster?",
+      "Can you provide guidance on administering first aid in emergency situations?",
+      "How can I check for injuries and provide assistance to others?",
+      "What are the immediate steps to take if someone is hurt?",
+      "Do you have any advice for handling medical emergencies?",
+      "What should I include in a basic first aid kit for disasters?",
+      "How can I ensure I'm prepared to provide first aid during an emergency?"
+    ],
+    "responses": [
+      "Check yourself for injuries and get first aid if necessary before helping injured or trapped persons.",
+      "If someone needs to be rescued, call professionals with the right equipment to help. Many people have been killed or injured trying to rescue others in flooded areas.",
+      "Help people who require special assistance—Infants, elderly people, those without transportation, large families who may need additional help in an emergency situation, people with disabilities, and the people who care for them.",
+      "Avoid disaster areas. Your presence might hamper rescue and other emergency operations and put you at further risk from the residual effects of floods, such as contaminated water, crumbled roads, landslides, mudflows, and other hazards.",
+      "Use the telephone only for emergency calls. Telephone lines are frequently overwhelmed in disaster situations. They need to be clear for emergency calls to get through.",
+      "Stay out of a building if water remains around it. Tsunami water, like floodwater, can undermine foundations, causing buildings to sink, floors to crack, or walls to collapse.",
+      "When re-entering buildings or homes, use extreme caution. Tsunami-driven floodwater may have damaged buildings where you least expect it. Carefully watch every step you take."
+    ]
+  },
+  {
+    "tag": "safety precautions during disater",
+    "patterns": [
+      "What safety precautions should I take during a disaster?",
+      "Can you provide advice on staying safe in emergency situations?",
+      "How can I minimize risks during a disaster?",
+      "What measures should I take to ensure the safety of myself and others?",
+      "Do you have any tips for avoiding hazards during a disaster?",
+      "What should I keep in mind to protect myself during a crisis?",
+      "How can I stay safe when faced with potential dangers?"
+    ],
+    "responses": [
+      "Stay out of a building if water remains around it. Tsunami water, like floodwater, can undermine foundations, causing buildings to sink, floors to crack, or walls to collapse.",
+      "When re-entering buildings or homes, use extreme caution. Tsunami-driven floodwater may have damaged buildings where you least expect it. Carefully watch every step you take.",
+      "Wear long pants, a long-sleeved shirt, and sturdy shoes. The most common injury following a disaster is cut feet.",
+      "Use battery-powered lanterns or flashlights when examining buildings. Battery-powered lighting is the safest and easiest to use, and it does not present a fire hazard for the user, occupants, or building. DO NOT USE CANDLES.",
+      "Examine walls, floors, doors, staircases, and windows to make sure that the building is not in danger of collapsing.",
+      "Check for gas leaks. If you smell gas or hear a blowing or hissing noise, open a window and get everyone outside quickly. Turn off the gas using the outside main valve if you can, and call the gas company from a neighbour’s home. If you turn off the gas for any reason, it must be turned back on by a professional.",
+      "Look for electrical system damage. If you see sparks or broken or frayed wires, or if you smell burning insulation, turn off the electricity at the main fuse box or circuit breaker. If you have to step in water to get to the fuse box or circuit breaker, call an electrician first for advice. Electrical equipment should be checked and dried before being returned to service."
+    ]
+  },
+  {
+    "tag": "protection from animals or wildlife",
+    "patterns": [
+      "How can I protect myself from wildlife during a disaster?",
+      "What should I do if I encounter wild animals after a disaster?",
+      "Do you have any tips for dealing with animals during a crisis?",
+      "How can I keep my pets safe during a disaster?",
+      "What precautions should I take regarding animals and wildlife?",
+      "Are there any dangers from wildlife after a disaster?",
+      "What should I be aware of regarding animals and wildlife?"
+    ],
+    "responses": [
+      "Watch out for wild animals, especially poisonous snakes that may have come into buildings with the water. Use a stick to poke through debris. Tsunami floodwater flushes snakes and animals out of their homes.",
+      "Watch for loose plaster, drywall, and ceilings that could fall.",
+      "Keep all your animals under your direct control.",
+      "Keep all your animals under your direct control.",
+      "Expect aftershocks. If the earthquake is of large magnitude (magnitude 8 to 9+ on the Richter scale) and located nearby, some aftershocks could be as large as magnitude 7+ and capable of generating another tsunami. The number of aftershocks will decrease over the course of several days, weeks, or months depending on how large the main shock was.",
+      "Watch your animals closely.",
+      "Expect aftershocks. If the earthquake is of large magnitude (magnitude 8 to 9+ on the Richter scale) and located nearby, some aftershocks could be as large as magnitude 7+ and capable of generating another tsunami. The number of aftershocks will decrease over the course of several days, weeks, or months depending on how large the main shock was."
+    ]
+  },
+  {
+    "tag": "coastal_earthquake",
+    "patterns": [
+      "What should I do if I feel a coastal earthquake?",
+      "How should I react during a coastal earthquake?",
+      "What are the emergency actions for a coastal earthquake?",
+      "What precautions should I take during a coastal earthquake?",
+      "What safety measures should I follow during a coastal earthquake?",
+      "What are the steps to take during a strong coastal earthquake?",
+      "What should I do if I experience a coastal earthquake while at the beach?",
+      "What should I do if I'm indoors during a coastal earthquake?",
+      "What should I do if I'm outdoors during a coastal earthquake?",
+      "What should I do if I'm near a body of water during a coastal earthquake?"
+    ],
+    "responses": [
+      "Drop to the ground, take cover under a sturdy piece of furniture, and hold on until the shaking stops. If you're near a body of water, move quickly to higher ground or a safe place away from the water.",
+      "Stay calm and avoid running or standing near buildings, trees, or power lines. If you're near a body of water, move quickly to higher ground or a safe place away from the water.",
+      "Drop, cover, and hold on. Avoid downed power lines, damaged buildings, and bridges from which heavy objects might fall during an aftershock. If you're near a body of water, move quickly to higher ground or a safe place away from the water.",
+      "Stay calm and avoid panic. Follow the steps to drop, cover, and hold on. If you're near a body of water, move quickly to higher ground or a safe place away from the water.",
+      "Follow the emergency actions for a coastal earthquake. Stay calm and avoid panic. Drop, cover, and hold on. If you're near a body of water, move quickly to higher ground or a safe place away from the water.",
+      "Drop, cover, and hold on. If you're near a body of water, move quickly to higher ground or a safe place away from the water.",
+      "Move quickly to higher ground or a safe place away from the water. Avoid standing near buildings, trees, or power lines.",
+      "Drop, cover, and hold on. Stay indoors and avoid running outside or standing near buildings, trees, or power lines.",
+      "Drop, cover, and hold on. Stay outdoors and avoid buildings, trees, and power lines. If you're near a body of water, move quickly to higher ground or a safe place away from the water.",
+      "Move quickly to higher ground or a safe place away from the water. Stay calm and avoid panic. Follow the steps to drop, cover, and hold on."
+    ]
+  },
+  {
+    "tag": "tsunami_warning",
+    "patterns": [
+      "What should I do if I receive a tsunami warning?",
+      "How should I react to a tsunami warning?",
+      "What are the emergency actions for a tsunami warning?",
+      "What precautions should I take during a tsunami warning?",
+      "What safety measures should I follow during a tsunami warning?",
+      "What should I do if I'm in a coastal area during a tsunami warning?",
+      "What should I do if I'm near a body of water during a tsunami warning?",
+      "What should I do if I'm in a building during a tsunami warning?",
+      "What should I do if I'm outdoors during a tsunami warning?",
+      "What should I do if I'm in a vehicle during a tsunami warning?"
+    ],
+    "responses": [
+      "Gather your household members and quickly move to higher ground away from the coast. Follow the advice of local authorities and emergency responders.",
+      "Stay calm and move quickly to higher ground or a safe place outside the tsunami evacuation zone. Avoid low-lying coastal areas and follow the advice of local authorities and emergency responders.",
+      "Evacuate your house if you live in a tsunami evacuation zone and move calmly to higher ground following the advice of local authorities. If you are in a building, move to a higher floor or to the roof if necessary. Do not use elevators. If you are near a body of water, move quickly to higher ground or a safe place away from the water.",
+      "If you are near a body of water during a tsunami warning, move quickly to higher ground or a safe place away from the water. Do not wait for the water to recede, as a second wave may follow the first. Follow the advice of local authorities and emergency responders.",
+      "If you are in a building during a tsunami warning, move to a higher floor or to the roof if necessary. Do not use elevators. Stay away from windows and objects that may fall. Follow the advice of local authorities and emergency responders.",
+      "If you are outdoors during a tsunami warning, move quickly to higher ground or a safe place away from the water. Do not try to go to your car or to a nearby building. Follow the advice of local authorities and emergency responders.",
+      "If you are in a vehicle during a tsunami warning, do not try to drive through flooded areas. Instead, abandon your vehicle and move quickly to higher ground or a safe place away from the water. Follow the advice of local authorities and emergency responders.",
+      "If you are at the beach during a tsunami warning, move quickly to higher ground or a safe place away from the water. Do not wait for the water to recede, as a second wave may follow the first. Follow the advice of local authorities and emergency responders.",
+      "If you are in a wheelchair during a tsunami warning, move quickly to higher ground or a safe place away from the water. Follow the advice of local authorities and emergency responders. If possible, bring any necessary medical equipment with you.",
+      "If you are in a boat during a tsunami warning, head to open water and stay away from the coast. Follow the advice of local authorities and emergency responders."
+    ]
+  },
+  {
+    "tag": "floods definition",
+    "patterns": [
+      "What is a flood?",
+      "Can you explain the concept of a flood?",
+      "How would you define a flood?",
+      "What constitutes a flood?",
+      "Could you provide a definition of floods?"
+    ],
+    "responses": [
+      "A flood is an overflow of water onto normally dry land.",
+      "Floods occur when water accumulates in an area faster than it can be absorbed into the soil or removed by drainage systems.",
+      "A flood is a natural disaster that occurs when water overwhelms areas that are usually dry, causing damage to homes, infrastructure, and ecosystems.",
+      "Floods can result from various causes such as heavy rainfall, snowmelt, storm surges, or the overflow of rivers, lakes, or oceans.",
+      "In essence, a flood is the inundation of land that is typically dry due to the overflow of water from natural sources or man-made structures."
+    ]
+  },
+  {
+    "tag": "floods tips",
+    "patterns": [
+      "What should I do to prepare for a flood?",
+      "Can you provide tips for dealing with floods?",
+      "How can I protect myself and my property during a flood?",
+      "What measures should I take to stay safe in case of a flood?",
+      "Do you have any advice for staying safe during floods?"
+    ],
+    "responses": [
+      "Create an emergency kit with essential supplies such as water, non-perishable food, flashlight, batteries, first aid supplies, and important documents.",
+      "Stay informed about flood risks in your area by monitoring weather forecasts and paying attention to flood alerts and warnings.",
+      "Develop a family emergency plan that includes evacuation routes, meeting points, and contact information for emergency services.",
+      "If flooding is imminent, move valuables and important documents to higher ground or a waterproof container.",
+      "During a flood, avoid walking or driving through floodwaters, as they can be deeper and faster-moving than they appear. Seek higher ground and follow evacuation orders if instructed."
+    ]
+  },
+  {
+    "tag": "do's during floods",
+    "patterns": [
+      "What should I do during a flood?",
+      "Can you provide a list of things to do during a flood?",
+      "What actions are recommended during a flood?",
+      "How should I behave when a flood occurs?",
+      "What are the do's during a flood?"
+    ],
+    "responses": [
+      "Stay tuned to emergency alerts and follow evacuation orders issued by local authorities.",
+      "If you're indoors, move to higher ground or the highest level of your home. Stay away from windows and electrical appliances.",
+      "If you're outdoors, move to higher ground and avoid walking or driving through floodwaters.",
+      "Listen to a battery-operated radio for updates and instructions from emergency officials.",
+      "Help others who may need assistance, but prioritize your safety and avoid unnecessary risks."
+    ]
+  },
+  {
+    "tag": "don'ts during floods",
+    "patterns": [
+      "What should I avoid doing during a flood?",
+      "Can you provide a list of things not to do during a flood?",
+      "What actions are not recommended during a flood?",
+      "How can I stay safe by knowing what not to do during a flood?",
+      "What are the don'ts during a flood?"
+    ],
+    "responses": [
+      "Do not attempt to walk or drive through flooded areas, as the water may be deeper or faster-moving than it appears.",
+      "Avoid touching electrical equipment if you're standing in water or are wet, as it can lead to electric shock.",
+      "Do not eat food that has come into contact with floodwaters, as it may be contaminated.",
+      "Avoid using candles or open flames if you're in a flooded area, as they can pose a fire hazard.",
+      "Do not return to your home until authorities have declared it safe to do so."
+    ]
+  },
+  
+  {
+    "tag": "safety during floods",
+    "patterns": [
+      "What precautions should I take during a flood?",
+      "How can I stay safe if my area is flooded?",
+      "What are some safety tips for dealing with floods?",
+      "What should I do to protect myself and my family during a flood?",
+      "Can you provide guidance on staying safe during floods?"
+    ],
+    "responses": [
+      "Listen to local authorities for evacuation orders and follow them immediately.",
+      "Avoid walking or driving through floodwaters. Just six inches of moving water can knock you down, and one foot of moving water can sweep your vehicle away.",
+      "If trapped in a building during flooding, go to the highest level but do not climb into a closed attic. You may become trapped by rising floodwater.",
+      "Turn off utilities at the main switches or valves if instructed to do so, and disconnect electrical appliances. Do not touch electrical equipment if you are wet or standing in water.",
+      "Create an emergency plan and assemble a disaster kit with essential supplies, including water, non-perishable food, medications, flashlight, batteries, and a first aid kit."
+    ]
+  },
+  {
+    "tag": "precautions during floods",
+    "patterns": [
+      "What precautions should I take before a flood occurs?",
+      "How can I prepare my home for a flood?",
+      "What steps can I take to minimize the impact of a flood?",
+      "Can you provide advice on flood preparedness?",
+      "What should I do to ensure safety during flood season?"
+    ],
+    "responses": [
+      "Create an emergency kit with essential supplies such as water, non-perishable food, medications, flashlight, batteries, and a first aid kit.",
+      "Elevate utilities such as electrical panels, switches, sockets, and heating systems above potential flood levels.",
+      "Install backflow valves or plugs for drains, toilets, and other sewer connections to prevent floodwater from backing up into your home.",
+      "Learn about the flood risk in your area and develop a family emergency plan, including evacuation routes and meeting points.",
+      "Consider purchasing flood insurance to protect your property. Most standard homeowners' insurance policies do not cover flood damage."
+    ]
+  },
+  {
+    "tag": "precautions before floods",
+    "patterns": [
+      "What precautions should I take to prepare for a flood?",
+      "How can I get ready for potential flooding?",
+      "What steps should I take before a flood occurs?",
+      "Can you provide guidance on flood preparedness?",
+      "What are some proactive measures I can take before a flood?"
+    ],
+    "responses": [
+      "Create an emergency kit containing essentials such as water, non-perishable food, medications, flashlight, batteries, and a first aid kit.",
+      "Elevate valuables and important documents to higher levels in your home or store them in waterproof containers.",
+      "Ensure that your home's gutters and downspouts are clear of debris to prevent water from backing up and causing damage.",
+      "Know your evacuation routes and have a plan in place for where you will go if you need to leave your home.",
+      "Stay informed about weather forecasts and flood warnings issued by local authorities."
+    ]
+  },
+  {
+    "tag": "precautions after floods",
+    "patterns": [
+      "What precautions should I take after a flood?",
+      "How can I stay safe in the aftermath of a flood?",
+      "What steps should I follow after the floodwaters recede?",
+      "Can you provide advice on post-flood safety measures?",
+      "What should I do to protect myself and my property after a flood?"
+    ],
+    "responses": [
+      "Avoid entering floodwaters as they may be contaminated with sewage or hazardous materials.",
+      "Wait for authorities to declare that it is safe to return home before doing so, as there may be hidden dangers such as weakened structures or electrical hazards.",
+      "Document any damage to your property by taking photographs or videos for insurance purposes before beginning cleanup.",
+      "Dispose of any food, medicines, or other items that may have come into contact with floodwaters to prevent illness or contamination.",
+      "Seek medical attention if you have been injured during the flood or if you experience any symptoms of illness after exposure to floodwaters."
+    ]
+  },
+  {
+    "tag": "safety measures before flood",
+    "patterns": [
+      "What safety measures should I take before a flood?",
+      "How can I ensure safety for myself and my family before a flood occurs?",
+      "What precautions should I implement to prepare for a flood?",
+      "Can you provide guidance on safety measures before a flood?",
+      "What steps can I take in advance to stay safe during a flood?"
+    ],
+    "responses": [
+      "Create an emergency kit containing essentials such as water, non-perishable food, medications, flashlight, batteries, and a first aid kit.",
+      "Elevate valuables and important documents to higher levels in your home or store them in waterproof containers.",
+      "Know your evacuation routes and have a plan in place for where you will go if you need to leave your home.",
+      "Secure your home by reinforcing doors, windows, and other vulnerable areas to prevent water from entering.",
+      "Stay informed about weather forecasts and flood warnings issued by local authorities, and follow their instructions."
+    ]
+  },
+  {
+    "tag": "safety measures during flood",
+    "patterns": [
+      "What safety measures should I follow during a flood?",
+      "How can I stay safe while a flood is happening?",
+      "What precautions should I take to ensure safety during a flood?",
+      "Can you provide guidance on safety measures during a flood?",
+      "What steps should I take to protect myself and my family during a flood?"
+    ],
+    "responses": [
+      "Listen to local authorities for evacuation orders and follow them immediately.",
+      "Avoid walking or driving through floodwaters. Just six inches of moving water can knock you down, and one foot of moving water can sweep your vehicle away.",
+      "If trapped in a building during flooding, go to the highest level but do not climb into a closed attic. You may become trapped by rising floodwater.",
+      "Turn off utilities at the main switches or valves if instructed to do so, and disconnect electrical appliances. Do not touch electrical equipment if you are wet or standing in water.",
+      "Stay tuned to local radio or television stations for updates and instructions from emergency officials."
+    ]
+  },
+  {
+    "tag": "safety measures after flood",
+    "patterns": [
+      "What safety measures should I take after a flood?",
+      "How can I ensure safety for myself and my family after a flood?",
+      "What precautions should I implement in the aftermath of a flood?",
+      "Can you provide guidance on safety measures after a flood?",
+      "What steps can I take to protect myself and my property after a flood?"
+    ],
+    "responses": [
+      "Avoid entering floodwaters as they may be contaminated with sewage or hazardous materials.",
+      "Wait for authorities to declare that it is safe to return home before doing so, as there may be hidden dangers such as weakened structures or electrical hazards.",
+      "Document any damage to your property by taking photographs or videos for insurance purposes before beginning cleanup.",
+      "Dispose of any food, medicines, or other items that may have come into contact with floodwaters to prevent illness or contamination.",
+      "Seek medical attention if you have been injured during the flood or if you experience any symptoms of illness after exposure to floodwaters."
+    ]
+  },
+  {
+    "tag": "don'ts after flood",
+    "patterns": [
+      "What should I avoid doing after a flood?",
+      "What are the things I should not do in the aftermath of a flood?",
+      "Can you provide a list of actions to avoid after a flood?",
+      "What are the don'ts during the post-flood period?",
+      "How can I ensure I don't make mistakes after a flood?"
+    ],
+    "responses": [
+      "Avoid entering floodwaters as they may be contaminated with sewage or hazardous materials.",
+      "Do not return home until authorities have declared it safe to do so.",
+      "Avoid consuming food, medicines, or beverages that have come into contact with floodwaters.",
+      "Do not handle electrical equipment if you are wet or standing in water.",
+      "Avoid touching or handling debris without proper protective gear to prevent injuries or infections."
+    ]
+  },
+  {
+    "tag": "do's after flood",
+    "patterns": [
+      "What should I do after a flood?",
+      "What are the recommended actions after a flood?",
+      "Can you provide a list of things to do after a flood?",
+      "What are the dos and don'ts after a flood?",
+      "How should I behave to ensure safety after a flood?"
+    ],
+    "responses": [
+      "Listen to local authorities for instructions and follow them carefully.",
+      "Assess your property for damage and take photographs or videos for insurance purposes.",
+      "Contact your insurance company to report any damages and start the claims process.",
+      "Clean and disinfect your home thoroughly, especially if it has been exposed to floodwaters.",
+      "Check on your neighbors, especially those who may need assistance, and offer help if possible."
+    ]
+  },
+  {
+    "tag": "do's before flood",
+    "patterns": [
+      "What should I do before a flood?",
+      "What are the recommended actions before a flood?",
+      "Can you provide a list of things to do before a flood?",
+      "What are the dos and don'ts before a flood?",
+      "How can I prepare effectively before a flood?"
+    ],
+    "responses": [
+      "Create an emergency kit containing essentials such as water, non-perishable food, medications, flashlight, batteries, and a first aid kit.",
+      "Elevate valuables and important documents to higher levels in your home or store them in waterproof containers.",
+      "Know your evacuation routes and have a plan in place for where you will go if you need to leave your home.",
+      "Stay informed about weather forecasts and flood warnings issued by local authorities, and follow their instructions.",
+      "Secure your home by reinforcing doors, windows, and other vulnerable areas to prevent water from entering."
+    ]
+  },
+  {
+    "tag": "don'ts before flood",
+    "patterns": [
+      "What should I avoid doing before a flood?",
+      "What are the things I should not do in anticipation of a flood?",
+      "Can you provide a list of actions to avoid before a flood?",
+      "What are the don'ts in preparation for a flood?",
+      "How can I ensure I don't make mistakes before a flood?"
+    ],
+    "responses": [
+      "Do not ignore flood warnings or evacuation orders issued by local authorities.",
+      "Avoid waiting until the last minute to prepare for a flood. Start preparing as soon as you become aware of the potential risk.",
+      "Do not underestimate the severity of a flood. Take proactive measures to protect yourself and your property.",
+      "Avoid leaving important documents or valuables in areas prone to flooding. Store them in a safe and secure location.",
+      "Do not rely solely on social media or unofficial sources for flood-related information. Always verify information from trusted sources."
+    ]
+  },
+  {
+    "tag": "characteristics of floods",
+    "patterns": [
+      "What are the characteristics of floods?",
+      "Can you describe the features of floods?",
+      "What are the defining traits of floods?",
+      "How would you identify a flood based on its characteristics?",
+      "What are some common attributes of floods?"
+    ],
+    "responses": [
+      "Floods are natural disasters caused by an overflow of water onto land that is usually dry.",
+      "Characteristics of floods include rapid onset, extensive damage to infrastructure, displacement of people, and contamination of water sources.",
+      "Floods can occur due to heavy rainfall, melting snow, storm surges, or dam failures.",
+      "They can vary in severity, from minor flooding in localized areas to catastrophic floods affecting entire regions.",
+      "Floods can lead to loss of life, destruction of property, disruption of transportation and communication, and long-term economic impacts."
+    ]
+  },
+  {
+    "tag": "signs of floods",
+    "patterns": [
+      "What are the signs of floods?",
+      "Can you identify common indicators of floods?",
+      "How can I recognize if a flood is imminent?",
+      "What signs should I look for to detect a flood?",
+      "Are there any warning signals that precede a flood?"
+    ],
+    "responses": [
+      "Rapidly rising water levels in rivers, streams, or drainage channels.",
+      "Localized heavy rainfall or prolonged periods of rain.",
+      "Reports of flooding from nearby areas or communities.",
+      "Sudden and unexpected changes in water color or turbidity.",
+      "Observing debris or sediment accumulation in waterways."
+    ]
+  },
+  {
+    "tag": "health risks of floods",
+    "patterns": [
+      "What are the health risks associated with floods?",
+      "Can you describe the potential health hazards of floods?",
+      "How do floods affect public health?",
+      "What are the dangers to health during floods?",
+      "What health issues can arise as a result of flooding?"
+    ],
+    "responses": [
+      "Contamination of drinking water with sewage and other pollutants, leading to waterborne diseases such as cholera, typhoid, and hepatitis.",
+      "Exposure to mold and mildew in flooded homes, which can exacerbate respiratory problems and cause allergic reactions.",
+      "Injuries from debris, falls, or electrocution during flood cleanup efforts.",
+      "Vector-borne diseases such as malaria and dengue fever, which may proliferate in stagnant water after a flood.",
+      "Mental health challenges such as anxiety, depression, and post-traumatic stress disorder (PTSD) due to the trauma of experiencing a flood and its aftermath."
+    ]
+  },
+  {
+    "tag": "recovery after floods",
+    "patterns": [
+      "How can I recover after a flood?",
+      "What steps should I take to begin the recovery process after a flood?",
+      "Can you provide guidance on post-flood recovery?",
+      "What are the key aspects of recovery after floods?",
+      "How should I approach rebuilding and restoration after a flood?"
+    ],
+    "responses": [
+      "Assess the damage to your property and prioritize cleanup and repair tasks.",
+      "Contact your insurance company to file a claim and begin the claims process.",
+      "Seek assistance from local authorities, disaster relief organizations, or community support groups.",
+      "Document all expenses related to flood damage and keep records for insurance purposes.",
+      "Take steps to mitigate future flood risks, such as elevating utilities, reinforcing structures, or purchasing flood insurance."
+    ]
+  },
+  {
+    "tag": "preparedness for floods",
+    "patterns": [
+      "How can I prepare for floods?",
+      "What steps should I take to be ready for a flood?",
+      "Can you provide guidance on flood preparedness?",
+      "What are the key elements of flood preparedness?",
+      "How should I approach getting prepared for a flood?"
+    ],
+    "responses": [
+      "Create an emergency kit containing essentials such as water, non-perishable food, medications, flashlight, batteries, and a first aid kit.",
+      "Elevate valuables and important documents to higher levels in your home or store them in waterproof containers.",
+      "Know your evacuation routes and have a plan in place for where you will go if you need to leave your home.",
+      "Stay informed about weather forecasts and flood warnings issued by local authorities, and follow their instructions.",
+      "Secure your home by reinforcing doors, windows, and other vulnerable areas to prevent water from entering."
+    ]
+  },
+  {
+    "tag": "saving life from floods",
+    "patterns": [
+      "How can I save lives during a flood?",
+      "What actions should I take to rescue people during a flood?",
+      "Can you provide guidance on saving lives during floods?",
+      "What are the key strategies for rescuing individuals during floods?",
+      "How should I approach helping others during a flood?"
+    ],
+    "responses": [
+      "Call emergency services immediately if someone is in danger or needs rescue.",
+      "Do not attempt to enter floodwaters yourself unless you have received proper training and have the necessary equipment.",
+      "Throw ropes, life jackets, or other flotation devices to individuals stranded in floodwaters and encourage them to hold on until help arrives.",
+      "Guide people to higher ground and away from flooded areas if it is safe to do so.",
+      "Provide first aid to individuals who are injured and ensure they receive medical attention as soon as possible."
+    ]
+  },
+  {
+    "tag": "protection from wildlife during flood",
+    "patterns": [
+      "How can I protect myself from wildlife during a flood?",
+      "What measures should I take to avoid encounters with wildlife during floods?",
+      "Can you provide guidance on staying safe from animals during floods?",
+      "What are the risks posed by wildlife during floods and how can I mitigate them?",
+      "How should I approach dealing with wildlife in flooded areas?"
+    ],
+    "responses": [
+      "Stay away from flooded areas where wildlife may be seeking refuge or displaced from their natural habitats.",
+      "Avoid wading or swimming in floodwaters as they may contain dangerous animals such as snakes or alligators.",
+      "If you encounter wildlife, remain calm and back away slowly without making sudden movements.",
+      "Do not attempt to approach or handle injured or distressed animals. Contact local authorities or animal control for assistance.",
+      "Keep pets indoors or on a leash to prevent them from encountering wildlife or becoming lost during floods."
+    ]
+  },
+  {
+    "tag": "definition of thunderstorm",
+    "patterns": [
+      "What is a thunderstorm?",
+      "Can you define a thunderstorm?",
+      "What constitutes a thunderstorm?",
+      "How would you describe a thunderstorm?",
+      "What is the meaning of a thunderstorm?"
+    ],
+    "responses": [
+      "A thunderstorm is a weather phenomenon characterized by the presence of lightning and thunder, often accompanied by heavy rain, strong winds, and sometimes hail.",
+      "A thunderstorm is a type of storm that is characterized by the presence of thunder and lightning, along with heavy rain or hail.",
+      "A thunderstorm is a localized weather event marked by atmospheric instability, leading to the formation of cumulonimbus clouds, lightning, thunder, and precipitation in the form of rain, hail, or snow.",
+      "A thunderstorm is a violent convective storm characterized by lightning and thunder, typically producing heavy rain, strong winds, and sometimes hail or tornadoes.",
+      "A thunderstorm refers to a meteorological event characterized by the occurrence of lightning and thunder, often accompanied by intense rainfall and strong winds."
+    ]
+  },
+  {
+    "tag": "tips for thunderstorm",
+    "patterns": [
+      "What are some safety tips for thunderstorms?",
+      "Can you provide advice for staying safe during a thunderstorm?",
+      "How can I protect myself during a thunderstorm?",
+      "Do you have any recommendations for dealing with thunderstorms?",
+      "What precautions should I take during a thunderstorm?"
+    ],
+    "responses": [
+      "During a thunderstorm, it's important to seek shelter indoors in a sturdy building or vehicle, away from windows and doors.",
+      "Stay away from tall objects such as trees, poles, or towers during a thunderstorm as they can attract lightning.",
+      "Avoid using corded phones, electrical appliances, and plumbing fixtures during a thunderstorm to reduce the risk of electric shock.",
+      "If caught outside during a thunderstorm, crouch down low on the balls of your feet, with your head tucked and ears covered to minimize the risk of lightning strike.",
+      "After the thunderstorm has passed, be cautious of potential hazards such as downed power lines, flooded areas, and debris."
+    ]
+  },
+  {
+    "tag": "dos during thunderstorm",
+    "patterns": [
+      "What should I do during a thunderstorm?",
+      "Can you provide a list of dos during a thunderstorm?",
+      "What actions are recommended during a thunderstorm?",
+      "How can I stay safe when there's a thunderstorm?",
+      "What are the proper steps to take during a thunderstorm?"
+    ],
+    "responses": [
+      "Seek shelter indoors in a sturdy building or a hard-topped vehicle.",
+      "Stay away from windows, doors, and electrical appliances.",
+      "If outside, avoid open fields, tall trees, and water bodies. Find a low-lying area and crouch down, minimizing your contact with the ground.",
+      "Unplug electronic devices and appliances to protect them from lightning strikes and power surges.",
+      "Keep emergency supplies handy, including a flashlight, first aid kit, and essential medications."
+    ]
+  },
+  {
+    "tag": "dos before thunderstorm",
+    "patterns": [
+      "What should I do before a thunderstorm?",
+      "Can you provide some pre-thunderstorm safety tips?",
+      "What actions should I take before a thunderstorm hits?",
+      "How can I prepare for a thunderstorm?",
+      "What are the dos before a thunderstorm?"
+    ],
+    "responses": [
+      "Before a thunderstorm, secure outdoor objects that could become projectiles in high winds, such as patio furniture, toys, and garbage cans.",
+      "Check and maintain your emergency supply kit, including food, water, medications, flashlight, and batteries, in case of power outages.",
+      "Stay informed about weather conditions by monitoring local weather forecasts and alerts.",
+      "Make sure your mobile devices are fully charged to receive emergency alerts and communicate with others in case of power outages.",
+      "If you have pets, bring them indoors before the thunderstorm begins to keep them safe and calm."
+    ]
+  },
+  {
+    "tag": "dos after thunderstorm",
+    "patterns": [
+      "What should I do after a thunderstorm?",
+      "Can you provide some post-thunderstorm safety tips?",
+      "What are the recommended actions after a thunderstorm passes?",
+      "How can I stay safe once the thunderstorm has ended?",
+      "Do you have any advice for dealing with the aftermath of a thunderstorm?"
+    ],
+    "responses": [
+      "After a thunderstorm, it's important to assess your surroundings for any damage or hazards such as downed power lines, fallen trees, or flooding.",
+      "Check on neighbors, especially the elderly or those with special needs, to ensure their safety and offer assistance if needed.",
+      "If you were evacuated during the thunderstorm, wait for authorities to give the all-clear before returning home, and follow any instructions provided by emergency services.",
+      "Listen to local news or weather updates for information on road closures, power outages, and other post-thunderstorm developments.",
+      "Inspect your property for any damage caused by the thunderstorm, and take photographs for insurance purposes if necessary. Report any damage to the relevant authorities or your insurance provider."
+    ]
+  },
+  {
+    "tag": "don'ts during thunderstorm",
+    "patterns": [
+      "What actions should I avoid during a thunderstorm?",
+      "Can you tell me what not to do during a thunderstorm?",
+      "What are some things I shouldn't do when there's a thunderstorm?",
+      "Are there any activities I should refrain from during a thunderstorm?",
+      "What actions could be dangerous during a thunderstorm?"
+    ],
+    "responses": [
+      "During a thunderstorm, avoid taking shelter under trees as they can attract lightning and pose a risk of being struck.",
+      "Do not use electrical appliances, corded phones, or plumbing fixtures during a thunderstorm to minimize the risk of electric shock.",
+      "Avoid taking a shower or bath during a thunderstorm as plumbing fixtures can conduct electricity.",
+      "Don't seek shelter in open structures such as gazebos or pavilions, as they offer little protection from lightning strikes.",
+      "Stay away from bodies of water such as lakes, rivers, and pools during a thunderstorm as water is a good conductor of electricity."
+    ]
+  },
+  {
+    "tag": "do's and don'ts before thunderstorm",
+    "patterns": [
+      "What are some precautions to take before a thunderstorm?",
+      "Can you provide a list of do's and don'ts before a thunderstorm?",
+      "How should I prepare before a thunderstorm?",
+      "Do you have any advice for things to avoid before a thunderstorm?",
+      "What actions should I take before a thunderstorm hits?"
+    ],
+    "responses": [
+      "Do secure outdoor objects such as lawn furniture, decorations, and trash cans to prevent them from becoming projectiles in high winds.",
+      "Do bring pets indoors and ensure they have a safe place to stay during the thunderstorm.",
+      "Do charge electronic devices and ensure you have access to emergency supplies such as flashlights, batteries, and a battery-powered radio.",
+      "Don't use water-related appliances such as showers, sinks, or dishwashers during a thunderstorm to reduce the risk of electric shock from lightning strikes.",
+      "Don't rely solely on candles for lighting during a thunderstorm as they pose a fire hazard. Opt for battery-powered flashlights instead."
+    ]
+  },
+  {
+    "tag": "do's and don'ts after thunderstorm",
+    "patterns": [
+      "What should I not do after a thunderstorm?",
+      "Can you provide a list of things to avoid after a thunderstorm?",
+      "What actions should I refrain from after a thunderstorm?",
+      "What are the don'ts following a thunderstorm?",
+      "Do you have any recommendations on what not to do after a thunderstorm?"
+    ],
+    "responses": [
+      "After a thunderstorm, avoid touching electrical equipment or wires that may have been damaged by the storm.",
+      "Do not walk or drive through flooded areas or standing water, as it may be deeper or faster-flowing than it appears and could conceal hazards such as debris or downed power lines.",
+      "Avoid using candles or open flames as a light source if the power is out, as they pose a fire hazard, especially in the presence of flammable materials or gas leaks.",
+      "Do not enter damaged buildings until authorities have deemed them safe, as they may be structurally unsound or contain other hazards.",
+      "Refrain from using generators or portable grills indoors, as they produce carbon monoxide, which can be deadly if inhaled in enclosed spaces."
+    ]
+  },
+  {
+    "tag": "safety during thunderstorm",
+    "patterns": [
+      "What safety precautions should I take during a thunderstorm?",
+      "How can I stay safe during a thunderstorm?",
+      "Do you have any tips for staying safe during thunderstorms?",
+      "What actions should I take to ensure my safety during a thunderstorm?",
+      "Can you provide safety guidelines for thunderstorms?"
+    ],
+    "responses": [
+      "During a thunderstorm, seek shelter indoors in a sturdy building or a hard-topped vehicle, away from windows and doors.",
+      "Stay away from tall objects such as trees, poles, or towers, and avoid open areas such as fields or beaches.",
+      "Avoid using corded phones, electrical appliances, and plumbing fixtures during a thunderstorm to reduce the risk of electric shock.",
+      "If you are caught outside during a thunderstorm, crouch down low on the balls of your feet, with your head tucked and ears covered, and minimize contact with the ground.",
+      "After the thunderstorm has passed, be cautious of potential hazards such as downed power lines, flooded areas, and debris."
+    ]
+  },
+  {
+    "tag": "safety after thunderstorm",
+    "patterns": [
+      "How can I stay safe after a thunderstorm?",
+      "What safety precautions should I take after a thunderstorm?",
+      "Can you provide advice for ensuring safety after a thunderstorm?",
+      "What actions can I take to protect myself and others after a thunderstorm?",
+      "Do you have any recommendations for staying safe after a thunderstorm?"
+    ],
+    "responses": [
+      "After a thunderstorm, assess your surroundings for any hazards such as downed power lines, damaged buildings, or flooding, and avoid them if possible.",
+      "Stay informed about any ongoing risks or emergency alerts issued by local authorities regarding post-thunderstorm hazards.",
+      "Check on your neighbors, especially those who may need assistance such as the elderly, disabled, or those with medical conditions, and offer help if needed.",
+      "If using a generator, make sure it is operated outdoors in a well-ventilated area to prevent carbon monoxide poisoning.",
+      "Listen to weather updates and follow any instructions provided by emergency services to ensure your safety and well-being after a thunderstorm."
+    ]
+  },
+  {
+    "tag": "safety before thunderstorm",
+    "patterns": [
+      "What safety precautions should I take before a thunderstorm?",
+      "Can you provide advice for staying safe before a thunderstorm?",
+      "How can I prepare for a thunderstorm to ensure safety?",
+      "What are some safety measures to implement before a thunderstorm hits?",
+      "Do you have any recommendations for ensuring safety prior to a thunderstorm?"
+    ],
+    "responses": [
+      "Before a thunderstorm, secure outdoor objects that could become projectiles in high winds, such as patio furniture, trash cans, and garden decorations.",
+      "Create an emergency kit containing essential items such as water, non-perishable food, flashlight, batteries, first aid supplies, and a portable weather radio.",
+      "Identify a safe shelter location in your home, such as a basement, interior room, or hallway away from windows, and ensure all family members know where it is.",
+      "Trim tree branches and remove dead or weakened trees that could potentially fall on your home during a thunderstorm.",
+      "Stay informed about weather forecasts and warnings by monitoring local news, weather radio, or smartphone apps, and heed any evacuation orders or advisories issued by authorities."
+    ]
+  },
+  {
+    "tag": "safety measures before thunderstorm",
+    "patterns": [
+      "What safety measures should I take before a thunderstorm?",
+      "Can you provide safety tips for preparing before a thunderstorm?",
+      "How can I ensure safety before a thunderstorm hits?",
+      "What precautions should I implement before a thunderstorm?",
+      "Do you have any recommendations for safety preparations before a thunderstorm?"
+    ],
+    "responses": [
+      "Before a thunderstorm, secure outdoor objects such as lawn furniture, decorations, and equipment that could become airborne in strong winds.",
+      "Create an emergency kit with essentials like water, non-perishable food, flashlights, batteries, a first aid kit, and a portable weather radio.",
+      "Identify a safe shelter area in your home, away from windows, such as a basement, interior room, or hallway.",
+      "Inspect your property for potential hazards like loose branches, unstable structures, or debris that could pose a danger during the storm.",
+      "Stay informed about weather forecasts and warnings by monitoring local news, weather apps, or a NOAA Weather Radio."
+    ]
+  },
+  {
+    "tag": "safety measures after thunderstorm",
+    "patterns": [
+      "What safety precautions should I take after a thunderstorm?",
+      "Can you provide advice for staying safe after a thunderstorm?",
+      "How can I ensure safety in the aftermath of a thunderstorm?",
+      "What are some safety measures to implement after a thunderstorm has passed?",
+      "Do you have any recommendations for ensuring safety following a thunderstorm?"
+    ],
+    "responses": [
+      "After a thunderstorm, be cautious of hazards such as downed power lines, flooded areas, and debris.",
+      "Check your property for any damage, such as roof leaks, broken windows, or structural issues, and take necessary precautions to address them.",
+      "Avoid using electrical appliances or utilities until they have been inspected and deemed safe by a qualified professional.",
+      "If you encounter flooded areas or standing water, do not attempt to walk or drive through them, as they may conceal hazards and pose risks of drowning or electrocution.",
+      "Keep children and pets away from storm debris, downed trees, and flooded areas to prevent injury."
+    ]
+  },
+  {
+    "tag": "characteristics of thunderstorm",
+    "patterns": [
+      "What are the characteristics of a thunderstorm?",
+      "Can you describe the features of a thunderstorm?",
+      "What are the typical traits of thunderstorms?",
+      "How can I identify a thunderstorm based on its characteristics?",
+      "Do you have any information on the distinguishing features of thunderstorms?"
+    ],
+    "responses": [
+      "Thunderstorms are characterized by the presence of lightning, thunder, heavy rain, and sometimes hail or strong winds.",
+      "Typical features of a thunderstorm include towering cumulonimbus clouds, frequent lightning strikes, loud thunderclaps, and intense precipitation.",
+      "Thunderstorms often exhibit rapid upward movement of air, leading to convective cloud formation and the development of an anvil-shaped top.",
+      "Distinctive signs of a thunderstorm include darkening skies, gusty winds, sudden drops in temperature, and the smell of ozone in the air.",
+      "Thunderstorms may produce severe weather phenomena such as tornadoes, microbursts, and flash floods, making them hazardous weather events."
+    ]
+  },
+  {
+    "tag": "signs of thunderstorm",
+    "patterns": [
+      "What are the signs that a thunderstorm is approaching?",
+      "Can you tell me how to recognize the signs of a thunderstorm?",
+      "How can I identify the signs indicating the approach of a thunderstorm?",
+      "What are some indicators of an impending thunderstorm?",
+      "Do you have any information on recognizing the signs of a thunderstorm?"
+    ],
+    "responses": [
+      "Signs of an approaching thunderstorm include darkening skies, gusty winds, distant rumbling of thunder, and flashes of lightning in the distance.",
+      "You may notice a sudden drop in temperature, an increase in humidity, and the formation of towering clouds, such as cumulonimbus clouds, which are indicative of a thunderstorm.",
+      "Watch for lightning activity or flashes of light in the sky, even if they appear far away, as they can signal the approach of a thunderstorm.",
+      "Listen for the sound of thunder, which may start as a distant rumble and gradually become louder as the storm approaches.",
+      "Pay attention to weather forecasts and warnings issued by meteorological authorities, as they can provide valuable information about the likelihood of thunderstorm activity in your area."
+    ]
+  },
+  {
+    "tag": "health risks of thunderstorm",
+    "patterns": [
+      "What are the health risks associated with thunderstorms?",
+      "Can you explain the potential health hazards of thunderstorms?",
+      "How can thunderstorms affect health?",
+      "What health issues can arise due to thunderstorms?",
+      "Do thunderstorms pose any risks to health?"
+    ],
+    "responses": [
+      "Thunderstorms can exacerbate respiratory conditions such as asthma and allergies due to increased pollen levels, dust, and mold spores being dispersed into the air.",
+      "Lightning strikes during thunderstorms can cause injuries ranging from burns and neurological damage to cardiac arrest and death.",
+      "Flash flooding resulting from heavy rainfall during thunderstorms can lead to drowning and waterborne diseases.",
+      "Strong winds associated with thunderstorms can cause injuries from flying debris and falling trees or structures.",
+      "Thunderstorms can also contribute to mental health issues such as anxiety and stress, particularly in individuals with storm-related phobias or PTSD."
+    ]
+  },
+  {
+    "tag": "recovery after thunderstorm",
+    "patterns": [
+      "What steps should I take for recovery after a thunderstorm?",
+      "Can you provide advice on how to recover after a thunderstorm?",
+      "How can I begin the recovery process following a thunderstorm?",
+      "What are some actions to take for recovery after a thunderstorm?",
+      "Do you have any recommendations for post-thunderstorm recovery?"
+    ],
+    "responses": [
+      "After a thunderstorm, assess your property for damage and document any losses for insurance purposes.",
+      "Contact your insurance provider to report any damage to your property and begin the claims process.",
+      "Clean up debris and fallen branches from your yard to prevent potential hazards and aid in the recovery process.",
+      "If your home sustained significant damage, seek assistance from local authorities, disaster relief organizations, or community support services.",
+      "Take care of yourself and your loved ones by ensuring access to basic necessities such as food, water, shelter, and medical care during the recovery period."
+    ]
+  },
+  {
+    "tag": "preparedness for thunderstorm",
+    "patterns": [
+      "How can I prepare for a thunderstorm?",
+      "What steps should I take to be ready for a thunderstorm?",
+      "Can you provide tips for being prepared for a thunderstorm?",
+      "What are some preparedness measures for dealing with thunderstorms?",
+      "Do you have any recommendations for getting ready for a thunderstorm?"
+    ],
+    "responses": [
+      "Before a thunderstorm, secure outdoor items such as patio furniture and trash cans to prevent them from becoming projectiles in high winds.",
+      "Create an emergency kit containing essentials like water, non-perishable food, flashlight, batteries, first aid supplies, and a portable weather radio.",
+      "Identify a safe shelter location in your home, away from windows, and ensure all family members know where it is and how to reach it quickly.",
+      "Trim tree branches and remove dead or weak trees that could fall on your property during a thunderstorm.",
+      "Stay informed about weather forecasts and warnings by monitoring local news, weather radio, or smartphone apps, and follow any evacuation orders or advisories issued by authorities."
+    ]
+  },
+  {
+    "tag": "lifesaving from thunderstorm",
+    "patterns": [
+      "What lifesaving measures should I take during a thunderstorm?",
+      "Can you provide tips for saving lives during a thunderstorm?",
+      "How can I help ensure the safety of others during a thunderstorm?",
+      "What actions can be lifesaving during a thunderstorm?",
+      "Do you have any recommendations for saving lives from a thunderstorm?"
+    ],
+    "responses": [
+      "During a thunderstorm, prioritize seeking shelter in a sturdy building or vehicle to protect yourself from lightning and other hazards.",
+      "If someone is struck by lightning, call emergency services immediately and administer CPR if necessary.",
+      "If someone is injured or trapped during a thunderstorm, call for professional help and avoid attempting to rescue them yourself unless it is safe to do so.",
+      "Help people who require special assistance, such as infants, elderly individuals, and individuals with disabilities, to ensure their safety during a thunderstorm.",
+      "Stay informed about weather forecasts and warnings, and encourage others to take appropriate safety measures to mitigate the risks of thunderstorms."
+    ]
+  },
+  {
+    "tag": "define hurricanes",
+    "patterns": [
+      "What is a hurricane?",
+      "Can you define a hurricane?",
+      "What constitutes a hurricane?",
+      "How would you describe a hurricane?",
+      "What is the meaning of a hurricane?"
+    ],
+    "responses": [
+      "A hurricane is a large, rotating storm system characterized by strong winds, heavy rainfall, and thunderstorms. It typically forms over warm ocean waters and can cause significant damage to coastal areas.",
+      "A hurricane is a tropical cyclone with sustained winds of 74 miles per hour (119 kilometers per hour) or higher. It is accompanied by intense rainfall, storm surges, and sometimes tornadoes.",
+      "A hurricane is a powerful tropical cyclone that forms over warm ocean waters and has a well-defined circulation pattern. It is categorized based on its wind speed and intensity, with categories ranging from 1 (weakest) to 5 (strongest) on the Saffir-Simpson Hurricane Wind Scale.",
+      "A hurricane is a severe tropical storm characterized by low atmospheric pressure, high winds, and heavy rain. It develops over warm ocean waters and can cause widespread destruction and flooding when it makes landfall.",
+      "A hurricane refers to a tropical cyclone that originates over warm ocean waters and is characterized by strong winds, heavy rain, and storm surges. It poses significant risks to coastal communities and can cause extensive damage."
+    ]
+  },
+  {
+    "tag": "tips for hurricanes",
+    "patterns": [
+      "What are some safety tips for hurricanes?",
+      "Can you provide advice for staying safe during a hurricane?",
+      "How can I protect myself during a hurricane?",
+      "Do you have any recommendations for dealing with hurricanes?",
+      "What precautions should I take during a hurricane?"
+    ],
+    "responses": [
+      "During a hurricane, evacuate if instructed to do so by local authorities, and seek shelter in a sturdy building or evacuation center if evacuation is not possible.",
+      "Stay informed about hurricane warnings and updates by monitoring weather forecasts and listening to local news and emergency broadcasts.",
+      "Secure windows and doors with storm shutters or plywood to protect against strong winds and flying debris.",
+      "Prepare an emergency kit containing essential items such as water, non-perishable food, flashlight, batteries, first aid supplies, and important documents.",
+      "After a hurricane, avoid wading through floodwaters, as they may contain dangerous debris, contaminants, or hidden hazards such as downed power lines."
+    ]
+  },
+  {
+    "tag": "dos during hurricanes",
+    "patterns": [
+      "What should I do during a hurricane?",
+      "Can you provide tips for staying safe during a hurricane?",
+      "How can I protect myself during a hurricane?",
+      "What actions should I take while a hurricane is occurring?",
+      "Do you have any recommendations for surviving during a hurricane?"
+    ],
+    "responses": [
+      "Stay indoors and away from windows, preferably in a sturdy, interior room.",
+      "Keep emergency supplies on hand, including water, food, medications, and a flashlight.",
+      "Listen to local authorities for updates and follow their instructions, including evacuation orders.",
+      "If you're evacuating, secure your home and follow designated evacuation routes.",
+      "Avoid using candles or open flames during the storm."
+    ]
+  },
+  {
+    "tag": "dos before hurricanes",
+    "patterns": [
+      "What should I do before a hurricane?",
+      "Can you provide preparation tips for hurricanes?",
+      "How can I prepare myself and my property for a hurricane?",
+      "What actions should I take before a hurricane approaches?",
+      "Do you have any recommendations for readiness before a hurricane?"
+    ],
+    "responses": [
+      "Create an emergency kit with essential supplies like water, food, medications, and batteries.",
+      "Secure outdoor objects and bring in any loose items that could become projectiles in high winds.",
+      "Trim trees and shrubs to reduce the risk of branches falling on your home.",
+      "Board up windows or install storm shutters to protect against flying debris.",
+      "Review your evacuation plan and know your evacuation routes."
+    ]
+  },
+  {
+    "tag": "dos after hurricanes",
+    "patterns": [
+      "What should I do after a hurricane?",
+      "Can you provide post-hurricane tips?",
+      "How can I stay safe and recover after a hurricane?",
+      "What actions should I take in the aftermath of a hurricane?",
+      "Do you have any recommendations for handling the aftermath of a hurricane?"
+    ],
+    "responses": [
+      "Check for injuries and administer first aid if needed.",
+      "Stay away from downed power lines and report them to authorities.",
+      "Avoid flooded areas and standing water, as they may be contaminated or conceal hazards.",
+      "Inspect your home for damage and take photos for insurance claims.",
+      "Listen to local officials for updates on recovery efforts and safety advisories."
+    ]
+  },
+  {
+    "tag": "don'ts during hurricanes",
+    "patterns": [
+      "What should I not do during a hurricane?",
+      "Can you provide a list of things to avoid during a hurricane?",
+      "What actions should I refrain from during a hurricane?",
+      "What are the don'ts during a hurricane?",
+      "Do you have any recommendations on what not to do during a hurricane?"
+    ],
+    "responses": [
+      "Do not go outside during the hurricane unless absolutely necessary. Stay indoors in a safe, sturdy building.",
+      "Avoid using candles or open flames as a light source during a hurricane, as they pose a fire hazard.",
+      "Do not approach windows or glass doors during a hurricane, as they may shatter due to high winds or flying debris.",
+      "Refrain from driving through flooded areas or standing water, as it may be deeper than it appears and could conceal hazards.",
+      "Avoid using electrical appliances or utilities during a hurricane to reduce the risk of electrical shock or fire."
+    ]
+  },
+  {
+    "tag": "don'ts before hurricanes",
+    "patterns": [
+      "What should I not do before a hurricane?",
+      "Can you provide advice on things to avoid before a hurricane?",
+      "How can I prepare for a hurricane by knowing what not to do?",
+      "What actions should I refrain from before a hurricane?",
+      "Do you have any recommendations for what not to do before a hurricane?"
+    ],
+    "responses": [
+      "Do not wait until the last minute to prepare for a hurricane. Start your preparations well in advance.",
+      "Avoid leaving windows and doors unprotected. Install storm shutters or board up windows to protect against flying debris.",
+      "Refrain from parking your vehicle under trees or in low-lying areas prone to flooding.",
+      "Do not ignore evacuation orders from authorities. Take evacuation orders seriously and evacuate to a safe location if instructed to do so.",
+      "Avoid purchasing unnecessary supplies or items in a panic. Make a list of essential items and stock up on emergency supplies ahead of time."
+    ]
+  },
+  {
+    "tag": "don'ts after hurricanes",
+    "patterns": [
+      "What should I not do after a hurricane?",
+      "Can you provide advice on things to avoid after a hurricane?",
+      "How can I ensure safety in the aftermath of a hurricane by knowing what not to do?",
+      "What actions should I refrain from after a hurricane?",
+      "Do you have any recommendations for what not to do after a hurricane?"
+    ],
+    "responses": [
+      "Do not enter damaged buildings until authorities have deemed them safe, as they may contain hazards such as structural damage or gas leaks.",
+      "Avoid using generators or portable grills indoors, as they produce carbon monoxide, which can be deadly if inhaled in enclosed spaces.",
+      "Refrain from walking or driving through floodwaters, as they may be contaminated or conceal hazards.",
+      "Do not attempt to touch or move downed power lines. Report them to the authorities immediately.",
+      "Avoid consuming contaminated food or water. Follow food safety guidelines and boil water if necessary before consuming."
+    ]
+  },
+  {
+    "tag": "precautions during hurricanes",
+    "patterns": [
+      "What precautions should I take during a hurricane?",
+      "Can you provide safety measures for during a hurricane?",
+      "How can I stay safe during a hurricane?",
+      "What actions can I take to protect myself during a hurricane?",
+      "Do you have any recommendations for precautions during a hurricane?"
+    ],
+    "responses": [
+      "Stay indoors in a safe, sturdy building and away from windows, doors, and glass.",
+      "Listen to local authorities and follow evacuation orders if instructed to do so.",
+      "Keep emergency supplies, such as food, water, medications, and a flashlight, readily available.",
+      "Avoid using candles or open flames as a light source, as they pose a fire hazard.",
+      "If caught outside during a hurricane, seek shelter in a low-lying area away from trees, poles, or tall objects."
+    ]
+  },
+  {
+    "tag": "precautions before hurricanes",
+    "patterns": [
+      "What precautions should I take before a hurricane?",
+      "Can you provide safety measures for before a hurricane?",
+      "How can I prepare for a hurricane?",
+      "What actions can I take to protect myself before a hurricane?",
+      "Do you have any recommendations for precautions before a hurricane?"
+    ],
+    "responses": [
+      "Secure outdoor objects that could become projectiles in high winds, such as patio furniture and garden decorations.",
+      "Create an emergency kit with essential supplies, including water, non-perishable food, medications, and first aid supplies.",
+      "Board up windows or install storm shutters to protect against flying debris.",
+      "Develop a family emergency plan and designate a safe meeting place in case of evacuation.",
+      "Stay informed about weather forecasts and warnings, and follow the advice of local authorities."
+    ]
+  },
+  {
+    "tag": "precautions after hurricanes",
+    "patterns": [
+      "What precautions should I take after a hurricane?",
+      "Can you provide safety measures for after a hurricane?",
+      "How can I ensure safety in the aftermath of a hurricane?",
+      "What actions can I take to protect myself after a hurricane?",
+      "Do you have any recommendations for precautions after a hurricane?"
+    ],
+    "responses": [
+      "Avoid entering damaged buildings until authorities have deemed them safe.",
+      "Stay away from downed power lines and report them to the authorities immediately.",
+      "Use caution when using generators or portable grills to avoid carbon monoxide poisoning.",
+      "Watch out for hazards such as flooded areas, debris, and displaced wildlife.",
+      "Seek medical attention for injuries and follow food safety guidelines to prevent illness."
+    ]
+  },
+  {
+    "tag": "safety during hurricanes",
+    "patterns": [
+      "How can I ensure safety during a hurricane?",
+      "What safety measures should I take during a hurricane?",
+      "Can you provide advice for staying safe during hurricanes?",
+      "What actions can I take to protect myself during a hurricane?",
+      "Do you have any recommendations for safety during hurricanes?"
+    ],
+    "responses": [
+      "Stay indoors in a safe, sturdy building and away from windows, doors, and glass.",
+      "Listen to local authorities and follow evacuation orders if instructed to do so.",
+      "Keep emergency supplies, such as food, water, medications, and a flashlight, readily available.",
+      "Avoid using candles or open flames as a light source, as they pose a fire hazard.",
+      "If caught outside during a hurricane, seek shelter in a low-lying area away from trees, poles, or tall objects."
+    ]
+  },
+  {
+    "tag": "classification of hurricanes",
+    "patterns": [
+      "What is the classification system for hurricanes?",
+      "Can you explain how hurricanes are classified?",
+      "How are hurricanes categorized?",
+      "What are the different levels of hurricane classification?",
+      "Do you have information on the hurricane classification scale?"
+    ],
+    "responses": [
+      "Hurricanes are classified based on their wind speed using the Saffir-Simpson Hurricane Wind Scale, which ranges from Category 1 to Category 5.",
+      "The Saffir-Simpson Hurricane Wind Scale categorizes hurricanes into five levels based on their sustained wind speeds and potential damage.",
+      "Hurricanes are categorized as follows: Category 1 (74-95 mph), Category 2 (96-110 mph), Category 3 (111-129 mph), Category 4 (130-156 mph), and Category 5 (157 mph or higher).",
+      "The classification system for hurricanes provides a way to communicate the potential impact and severity of a storm based on its wind speed and destructive potential.",
+      "The Saffir-Simpson Hurricane Wind Scale is used by meteorologists to help communities prepare for and respond to hurricanes by providing clear and consistent information about the storm's intensity."
+    ]
+  },
+  {
+    "tag": "signs of hurricanes",
+    "patterns": [
+      "What are the signs of a hurricane approaching?",
+      "Can you provide indicators that a hurricane is coming?",
+      "How can I recognize the signs of an impending hurricane?",
+      "What are some clues that a hurricane might be approaching?",
+      "Do you have any information on detecting signs of hurricanes?"
+    ],
+    "responses": [
+      "A sudden drop in barometric pressure is often a sign that a hurricane is approaching.",
+      "Increasing wind speeds, darkening skies, and the presence of thick clouds can indicate the onset of a hurricane.",
+      "Heavy rainfall, thunderstorms, and rough seas are common precursors to a hurricane.",
+      "The appearance of spiral bands or bands of clouds wrapping around the center of low pressure may indicate the formation of a hurricane.",
+      "Storm surge, or a rapid rise in sea level, is a significant sign of an approaching hurricane, especially along coastal areas."
+    ]
+  },
+  {
+    "tag": "health risks of hurricanes",
+    "patterns": [
+      "What are the health risks associated with hurricanes?",
+      "Can you explain the potential health hazards of hurricanes?",
+      "How do hurricanes pose risks to health?",
+      "What are the health dangers of hurricanes?",
+      "Do you have information on the health risks of hurricanes?"
+    ],
+    "responses": [
+      "Hurricanes can lead to various health risks, including injuries from flying debris, drowning in floodwaters, and carbon monoxide poisoning from improper generator use.",
+      "Floodwaters and standing water after hurricanes can contain contaminants, bacteria, and hazardous materials, increasing the risk of infections and waterborne diseases.",
+      "Mold growth in homes and buildings following hurricanes can exacerbate respiratory issues and allergies, leading to respiratory infections and other health problems.",
+      "Hurricanes can disrupt healthcare services, including access to medications, medical supplies, and emergency medical care, posing risks to individuals with chronic illnesses and medical needs.",
+      "Mental health issues such as stress, anxiety, and post-traumatic stress disorder (PTSD) can arise or worsen due to the trauma and disruptions caused by hurricanes."
+    ]
+  },
+  {
+    "tag": "recovery after hurricanes",
+    "patterns": [
+      "What steps should I take for recovery after a hurricane?",
+      "Can you provide advice on post-hurricane recovery?",
+      "How can I begin the recovery process after a hurricane?",
+      "What actions should I take to recover from a hurricane?",
+      "Do you have any recommendations for recovery after hurricanes?"
+    ],
+    "responses": [
+      "Assess the damage to your property and prioritize repairs based on safety and necessity.",
+      "Document the damage with photographs or videos for insurance claims purposes.",
+      "Contact your insurance company to file a claim and begin the process of getting financial assistance for repairs.",
+      "Seek assistance from government agencies, non-profit organizations, or community resources for additional support.",
+      "Take care of your physical and mental health during the recovery process. Seek medical attention if necessary and reach out to support networks for emotional support."
+    ]
+  },
+  {
+    "tag": "preparedness for hurricanes",
+    "patterns": [
+      "How can I prepare for hurricanes?",
+      "Can you provide tips for hurricane preparedness?",
+      "What steps should I take to get ready for hurricanes?",
+      "What are some ways to be prepared for hurricanes?",
+      "Do you have any recommendations for hurricane preparedness?"
+    ],
+    "responses": [
+      "Create a family emergency plan that includes evacuation routes, emergency contacts, and a designated meeting place.",
+      "Assemble an emergency kit with essential supplies such as water, non-perishable food, medications, flashlight, batteries, and first aid supplies.",
+      "Secure your home by reinforcing windows, doors, and roof connections, and trimming trees and shrubs.",
+      "Stay informed about weather forecasts and warnings by monitoring local news, weather apps, or NOAA Weather Radio.",
+      "Review your insurance coverage to ensure it includes protection for your home and belongings against hurricane-related damages."
+    ]
+  },
+  {
+    "tag": "save lives during hurricanes",
+    "patterns": [
+      "What actions can save lives during hurricanes?",
+      "How can I help save lives during a hurricane?",
+      "What measures can be taken to protect lives during hurricanes?",
+      "Do you have any recommendations for saving lives during hurricanes?",
+      "Can you provide tips for life-saving during hurricanes?"
+    ],
+    "responses": [
+      "Encourage early evacuation from high-risk areas to prevent loss of life.",
+      "Help individuals with special needs, such as elderly or disabled individuals, evacuate to safety.",
+      "Spread awareness about hurricane preparedness and safety measures to the community.",
+      "Support emergency responders and volunteer organizations in their efforts to rescue and assist those in need.",
+      "Stay informed about hurricane updates and warnings, and take appropriate actions to protect yourself and others."
+    ]
+  },
+  {
+    "tag": "lightning definition",
+    "patterns": [
+      "What is lightning?",
+      "Can you define lightning?",
+      "How would you describe lightning?",
+      "What constitutes lightning?",
+      "What is the meaning of lightning?"
+    ],
+    "responses": [
+      "Lightning is a sudden and powerful electrical discharge generated by a thunderstorm, often accompanied by thunder and visible as a bright flash of light.",
+      "Lightning is an atmospheric discharge of electricity that occurs during thunderstorms, producing a bright flash of light and typically followed by thunder.",
+      "Lightning is a natural phenomenon characterized by the occurrence of electrical discharges between clouds or between a cloud and the ground, resulting in the emission of light and heat.",
+      "Lightning is the visible manifestation of the rapid movement of electrical charges within clouds or between clouds and the ground, usually accompanied by thunder.",
+      "Lightning is a natural electrostatic discharge that occurs within thunderstorms, characterized by a sudden and intense flash of light."
+    ]
+  },
+  {
+    "tag": "tips for lightning",
+    "patterns": [
+      "What are some safety tips for lightning?",
+      "Can you provide advice for staying safe during lightning storms?",
+      "How can I protect myself from lightning?",
+      "Do you have any recommendations for dealing with lightning?",
+      "What precautions should I take during lightning storms?"
+    ],
+    "responses": [
+      "Seek shelter in a sturdy building or a hard-topped vehicle during a lightning storm.",
+      "Stay away from tall objects such as trees, poles, or towers during a lightning storm, as they can attract lightning.",
+      "Avoid using corded phones, electrical appliances, and plumbing fixtures during a lightning storm to reduce the risk of electric shock.",
+      "If caught outside during a lightning storm, crouch down low on the balls of your feet, with your head tucked and ears covered to minimize the risk of lightning strike.",
+      "Wait at least 30 minutes after the last clap of thunder before leaving your shelter to ensure the storm has passed."
+    ]
+  },
+  {
+    "tag": "dos during lightning",
+    "patterns": [
+      "What should I do during a lightning storm?",
+      "Can you provide actions to take during a lightning storm?",
+      "How can I stay safe during lightning?",
+      "Do you have any recommendations for what to do during lightning?",
+      "Can you provide dos during a lightning storm?"
+    ],
+    "responses": [
+      "Seek shelter indoors in a sturdy building or a hard-topped vehicle during a lightning storm.",
+      "Stay away from tall objects such as trees, poles, or towers during a lightning storm.",
+      "If caught outside during a lightning storm, crouch down low on the balls of your feet, with your head tucked and ears covered to minimize the risk of lightning strike.",
+      "Wait at least 30 minutes after the last clap of thunder before leaving your shelter to ensure the storm has passed.",
+      "Stay informed about weather forecasts and warnings, and heed any advisories issued by local authorities."
+    ]
+  },
+  {
+    "tag": "dos before lightning",
+    "patterns": [
+      "What should I do before a lightning storm?",
+      "Can you provide actions to take before a lightning storm?",
+      "How can I prepare for lightning?",
+      "Do you have any recommendations for what to do before lightning?",
+      "Can you provide dos before a lightning storm?"
+    ],
+    "responses": [
+      "Check weather forecasts regularly to stay informed about the possibility of lightning storms.",
+      "Create an emergency kit with essential supplies, including water, non-perishable food, flashlight, and first aid supplies.",
+      "Identify a safe shelter location in your home or workplace, away from windows and doors, to seek refuge during a lightning storm.",
+      "Avoid outdoor activities if lightning is forecasted. Reschedule outdoor events or activities to a safer time.",
+      "Unplug electronic devices and appliances to protect them from power surges during lightning storms."
+    ]
+  },
+  {
+    "tag": "dos after lightning",
+    "patterns": [
+      "What should I do after a lightning storm?",
+      "Can you provide actions to take after a lightning storm?",
+      "How can I ensure safety after lightning?",
+      "Do you have any recommendations for what to do after lightning?",
+      "Can you provide dos after a lightning storm?"
+    ],
+    "responses": [
+      "Check for damage to your property, such as power lines, appliances, and electrical systems, after a lightning storm.",
+      "Seek medical attention for anyone injured during the lightning storm.",
+      "Report any downed power lines or electrical hazards to the authorities immediately.",
+      "Stay informed about weather updates in case of additional lightning storms.",
+      "Recharge or replace emergency supplies used during the lightning storm to ensure readiness for future emergencies."
+    ]
+  },
+  {
+    "tag": "don'ts during lightning",
+    "patterns": [
+      "What should I not do during a lightning storm?",
+      "Can you provide a list of things to avoid during lightning?",
+      "What actions should I refrain from during lightning?",
+      "What are the don'ts during a lightning storm?",
+      "Do you have any recommendations on what not to do during lightning?"
+    ],
+    "responses": [
+      "Do not seek shelter under trees or tall objects during a lightning storm, as they can attract lightning.",
+      "Avoid using corded phones, electrical appliances, and plumbing fixtures during a lightning storm to reduce the risk of electric shock.",
+      "Do not take shelter in open structures such as gazebos or picnic shelters during a lightning storm.",
+      "Refrain from swimming or engaging in water-related activities during a lightning storm, as water conducts electricity.",
+      "Avoid metal objects such as fences or golf clubs, as they can conduct electricity and increase the risk of being struck by lightning."
+    ]
+  },
+  {
+    "tag": "don'ts before lightning",
+    "patterns": [
+      "What should I not do before lightning occurs?",
+      "Can you provide advice on things to avoid before lightning?",
+      "How can I prepare for lightning by knowing what not to do?",
+      "What actions should I refrain from before lightning?",
+      "Do you have any recommendations for what not to do before lightning?"
+    ],
+    "responses": [
+      "Do not wait until the last minute to seek shelter when thunderstorms are approaching. Take shelter indoors at the first sign of thunder or lightning.",
+      "Avoid engaging in outdoor activities such as golfing, swimming, or hiking in open areas when thunderstorms are forecasted.",
+      "Do not take shelter under isolated trees or seek refuge in open fields during thunderstorms.",
+      "Refrain from using electronic devices or appliances connected to electrical outlets during thunderstorms, as power surges can occur.",
+      "Avoid standing near tall objects such as flagpoles or antennas, as they can attract lightning."
+    ]
+  },
+  {
+    "tag": "don'ts after lightning",
+    "patterns": [
+      "What should I not do after lightning?",
+      "Can you provide advice on things to avoid after lightning?",
+      "How can I ensure safety in the aftermath of lightning by knowing what not to do?",
+      "What actions should I refrain from after lightning?",
+      "Do you have any recommendations for what not to do after lightning?"
+    ],
+    "responses": [
+      "Do not touch electrical appliances or devices that may have been damaged by lightning without ensuring they are safe to use.",
+      "Avoid standing in puddles or wet areas after lightning, as water can conduct electricity.",
+      "Refrain from using corded phones immediately after lightning, as phone lines can carry electrical currents.",
+      "Do not approach downed power lines or poles that may have been struck by lightning. Report them to authorities immediately.",
+      "Avoid entering damaged buildings until they have been inspected and deemed safe by professionals."
+    ]
+  },
+  {
+    "tag": "safety during lightning",
+    "patterns": [
+      "What safety precautions should I take during lightning?",
+      "Can you provide advice for staying safe during lightning storms?",
+      "How can I protect myself during lightning?",
+      "Do you have any recommendations for ensuring safety during lightning storms?",
+      "What actions can I take to stay safe during lightning?"
+    ],
+    "responses": [
+      "Seek shelter in a sturdy building or a hard-topped vehicle during a lightning storm.",
+      "Stay away from tall objects such as trees, poles, or towers during a lightning storm, as they can attract lightning.",
+      "Avoid open areas, water bodies, and metal objects during a lightning storm, as they increase the risk of being struck by lightning.",
+      "If caught outside during a lightning storm, crouch down low on the balls of your feet, with your head tucked and ears covered to minimize the risk of lightning strike.",
+      "Wait at least 30 minutes after the last clap of thunder before leaving your shelter to ensure the storm has passed."
+    ]
+  },
+  {
+    "tag": "precautions during lightning",
+    "patterns": [
+      "What precautions should I take during lightning?",
+      "Can you provide advice on staying safe during lightning?",
+      "How can I protect myself during lightning?",
+      "What actions should I take during lightning to ensure safety?",
+      "Do you have any recommendations for precautions during lightning?"
+    ],
+    "responses": [
+      "Stay indoors during lightning storms, if possible, and avoid going outside unless absolutely necessary.",
+      "Avoid using corded phones, electrical appliances, and plumbing fixtures during lightning storms to reduce the risk of electric shock.",
+      "If you are caught outside during lightning, seek shelter in a sturdy building or vehicle. Avoid open fields, tall trees, or metal objects.",
+      "If indoors, stay away from windows, doors, and concrete walls, and avoid contact with water or plumbing fixtures.",
+      "If you are unable to find shelter during lightning, crouch down low on the balls of your feet, with your head tucked and ears covered to minimize the risk of lightning strike."
+    ]
+  },
+  {
+    "tag": "precautions before lightning",
+    "patterns": [
+      "What precautions should I take before lightning?",
+      "Can you provide advice on preparing for lightning?",
+      "How can I ensure safety before lightning occurs?",
+      "What actions should I take before lightning to minimize risk?",
+      "Do you have any recommendations for precautions before lightning?"
+    ],
+    "responses": [
+      "Check weather forecasts and be aware of the possibility of lightning in your area before going outdoors.",
+      "If thunderstorms are forecasted, consider postponing outdoor activities until the threat of lightning has passed.",
+      "If you are outdoors and lightning is imminent, seek shelter in a sturdy building or vehicle before the storm arrives.",
+      "Avoid open fields, tall trees, or metal objects during thunderstorms, as they are more likely to attract lightning strikes.",
+      "If you are planning outdoor activities, have a plan in place for seeking shelter quickly in case of lightning."
+    ]
+  },
+  {
+    "tag": "precautions after lightning",
+    "patterns": [
+      "What precautions should I take after lightning?",
+      "Can you provide advice on staying safe after lightning?",
+      "How can I ensure safety after lightning has occurred?",
+      "What actions should I take after lightning to mitigate risks?",
+      "Do you have any recommendations for precautions after lightning?"
+    ],
+    "responses": [
+      "Wait at least 30 minutes after the last observed lightning or thunder before resuming outdoor activities.",
+      "Check for any damage to electrical equipment or wiring in your home or surroundings after lightning strikes.",
+      "If someone is struck by lightning, seek medical help immediately and administer CPR if necessary.",
+      "Avoid using electronic devices or appliances that may have been damaged by lightning until they have been inspected by a professional.",
+      "Stay informed about weather conditions and be prepared to take shelter again if additional lightning storms develop."
+    ]
+  },
+  {
+    "tag": "safety measures during lightning",
+    "patterns": [
+      "What safety measures should I take during lightning?",
+      "Can you provide advice on staying safe during lightning?",
+      "How can I protect myself during lightning?",
+      "What actions should I take during lightning to ensure safety?",
+      "Do you have any recommendations for safety measures during lightning?"
+    ],
+    "responses": [
+      "Stay indoors during lightning storms, if possible, and avoid going outside unless absolutely necessary.",
+      "Avoid using corded phones, electrical appliances, and plumbing fixtures during lightning storms to reduce the risk of electric shock.",
+      "If you are caught outside during lightning, seek shelter in a sturdy building or vehicle. Avoid open fields, tall trees, or metal objects.",
+      "If indoors, stay away from windows, doors, and concrete walls, and avoid contact with water or plumbing fixtures.",
+      "If you are unable to find shelter during lightning, crouch down low on the balls of your feet, with your head tucked and ears covered to minimize the risk of lightning strike."
+    ]
+  },
+  {
+    "tag": "classification of lightning",
+    "patterns": [
+      "What are the classifications of lightning?",
+      "Can you explain the different types of lightning?",
+      "How is lightning classified?",
+      "What categories exist for lightning?",
+      "Do you have information on lightning classification?"
+    ],
+    "responses": [
+      "Lightning can be classified into several types, including cloud-to-ground (CG) lightning, intracloud (IC) lightning, and cloud-to-cloud (CC) lightning.",
+      "The main classifications of lightning include cloud-to-ground (CG) lightning, which strikes from the cloud to the ground; intracloud (IC) lightning, which occurs within the cloud itself; and cloud-to-cloud (CC) lightning, which occurs between different cloud systems.",
+      "Lightning is classified based on the location and direction of its discharge, with cloud-to-ground (CG) lightning being the most well-known and common type.",
+      "The classifications of lightning are based on the specific discharge patterns and paths, such as cloud-to-ground (CG), intracloud (IC), and cloud-to-cloud (CC) lightning.",
+      "Understanding the classifications of lightning can help in studying its behavior, characteristics, and potential hazards associated with different types of lightning strikes."
+    ]
+  },
+  {
+    "tag": "signs of lightning",
+    "patterns": [
+      "What are the signs of lightning?",
+      "Can you list the indicators of approaching lightning?",
+      "How can I recognize the signs of lightning?",
+      "What are some signals that lightning is imminent?",
+      "Do you have any information on detecting lightning?"
+    ],
+    "responses": [
+      "Darkening skies or sudden changes in weather conditions, such as gusty winds or rapidly falling temperatures, can indicate the approach of lightning.",
+      "The presence of cumulonimbus clouds, also known as thunderclouds, is often a sign that lightning may occur.",
+      "Flashes of lightning or distant rumbling thunder are clear signs that lightning is nearby or imminent.",
+      "Static electricity in the air, such as hair standing on end or tingling sensations, can indicate the presence of lightning.",
+      "If you see a sudden increase in the number of birds flying low to the ground or animals behaving strangely, it could be a sign of impending lightning."
+    ]
+  },
+  {
+    "tag": "health risks of lightning",
+    "patterns": [
+      "What are the health risks associated with lightning?",
+      "Can you explain the potential health dangers of lightning?",
+      "What health problems can lightning cause?",
+      "How does lightning impact human health?",
+      "Do you have information on the health risks of lightning?"
+    ],
+    "responses": [
+      "Direct lightning strikes can cause serious injuries, including cardiac arrest, burns, neurological damage, and internal organ injuries.",
+      "Indirect effects of lightning, such as side flash, ground current, and conduction through objects, can also lead to injuries or health complications.",
+      "Lightning can cause temporary or permanent hearing loss, vision impairment, and cognitive deficits in survivors of lightning strikes.",
+      "Psychological effects, such as post-traumatic stress disorder (PTSD) and anxiety, may occur in individuals who have experienced or witnessed lightning strikes.",
+      "In addition to physical injuries, lightning strikes can trigger secondary events, such as fires, explosions, and structural damage, posing further health risks."
+    ]
+  },
+  {
+    "tag": "recovery after lightning",
+    "patterns": [
+      "What should I do for recovery after lightning?",
+      "Can you provide advice on recovery after being struck by lightning?",
+      "How can I recover from a lightning strike?",
+      "What actions should I take after being struck by lightning?",
+      "Do you have any recommendations for recovery after lightning?"
+    ],
+    "responses": [
+      "Seek medical help immediately if you or someone else has been struck by lightning, even if there are no visible injuries.",
+      "Follow any medical advice or treatment prescribed by healthcare professionals after a lightning strike.",
+      "Rest and allow your body to recover from the physical and emotional effects of the lightning strike.",
+      "Monitor yourself or the affected person for any symptoms of lightning-related injuries, such as burns, neurological issues, or cardiac problems.",
+      "Consider seeking counseling or support to cope with any trauma or psychological effects resulting from the lightning strike."
+    ]
+  },
+  {
+    "tag": "preparedness for lightning",
+    "patterns": [
+      "How can I prepare for lightning?",
+      "Can you provide advice on being prepared for lightning?",
+      "What precautions should I take to prepare for lightning?",
+      "How can I ensure safety during lightning by being prepared?",
+      "Do you have any recommendations for preparedness before lightning?"
+    ],
+    "responses": [
+      "Stay informed about weather forecasts and be aware of the possibility of lightning in your area.",
+      "If thunderstorms are forecasted, consider postponing outdoor activities until the threat of lightning has passed.",
+      "Have a plan in place for seeking shelter quickly in a sturdy building or vehicle if you are outdoors and lightning is imminent.",
+      "Avoid open fields, tall trees, or metal objects during thunderstorms, as they are more likely to attract lightning strikes.",
+      "If you are planning outdoor activities, be prepared to take shelter quickly in case of lightning by knowing the nearest safe location."
+    ]
+  },
+  {
+    "tag": "lifesaving for lightning",
+    "patterns": [
+      "What lifesaving measures should I take during lightning?",
+      "Can you provide tips for saving lives during lightning?",
+      "How can I help ensure the safety of others during lightning?",
+      "What actions can be lifesaving during lightning?",
+      "Do you have any recommendations for saving lives during lightning?"
+    ],
+    "responses": [
+      "During lightning storms, prioritize seeking shelter in a sturdy building or vehicle to protect yourself and others from lightning strikes.",
+      "If someone is struck by lightning, call emergency services immediately and administer CPR if necessary.",
+      "If someone is injured or trapped during a lightning storm, call for professional help and avoid attempting to rescue them yourself unless it is safe to do so.",
+      "Help people who require special assistance, such as infants, elderly individuals, and individuals with disabilities, to ensure their safety during lightning storms.",
+      "Stay informed about weather forecasts and warnings, and encourage others to take appropriate safety measures to mitigate the risks of lightning."
+    ]
+  },
+  {
+    "tag": "tornado definition",
+    "patterns": [
+      "What is a tornado?",
+      "Can you define a tornado?",
+      "What constitutes a tornado?",
+      "How would you describe a tornado?",
+      "What is the meaning of a tornado?"
+    ],
+    "responses": [
+      "A tornado is a rapidly rotating column of air that extends from a thunderstorm to the ground, often appearing as a funnel-shaped cloud with destructive winds capable of causing significant damage.",
+      "A tornado is a violent and rapidly rotating column of air that forms under certain atmospheric conditions, typically associated with severe thunderstorms.",
+      "A tornado is a meteorological phenomenon characterized by a rotating column of air, also known as a vortex, that extends from the base of a thunderstorm to the ground.",
+      "A tornado is a highly destructive weather event marked by a spinning column of air, often with a visible funnel-shaped cloud descending from the base of a thunderstorm.",
+      "A tornado is a dangerous and rapidly rotating vortex of air that can cause widespread destruction and devastation as it moves across the ground."
+    ]
+  },
+  {
+    "tag": "tips for tornado",
+    "patterns": [
+      "What are some safety tips for tornadoes?",
+      "Can you provide advice for staying safe during a tornado?",
+      "How can I protect myself during a tornado?",
+      "Do you have any recommendations for dealing with tornadoes?",
+      "What precautions should I take during a tornado?"
+    ],
+    "responses": [
+      "Seek shelter in a sturdy building or designated tornado shelter immediately when a tornado warning is issued.",
+      "Stay away from windows, doors, and exterior walls during a tornado. Take shelter in the lowest level of the building, preferably in a basement or interior room.",
+      "If you are caught outdoors during a tornado, seek shelter in a low-lying area such as a ditch or culvert. Cover your head and neck with your arms.",
+      "Avoid staying in mobile homes or vehicles during tornadoes, as they offer little protection. Find a sturdy building or storm shelter instead.",
+      "After the tornado has passed, watch out for hazards such as downed power lines, broken glass, and debris. Use caution when navigating through affected areas."
+    ]
+  },
+  {
+    "tag": "dos during tornado",
+    "patterns": [
+      "What should I do during a tornado?",
+      "Can you provide advice for actions to take during a tornado?",
+      "How can I stay safe during a tornado?",
+      "Do you have any recommendations for what to do during a tornado?",
+      "What actions should I take during a tornado?"
+    ],
+    "responses": [
+      "Seek shelter in a sturdy building or designated tornado shelter immediately when a tornado warning is issued.",
+      "Stay away from windows, doors, and exterior walls during a tornado. Take shelter in the lowest level of the building, preferably in a basement or interior room.",
+      "Cover your head and neck with your arms to protect yourself from flying debris during a tornado.",
+      "If you are caught outdoors, seek shelter in a low-lying area such as a ditch or culvert. Lie flat and cover your head and neck with your arms.",
+      "Listen to local authorities and weather updates for information and instructions during a tornado."
+    ]
+  },
+  {
+    "tag": "dos before tornado",
+    "patterns": [
+      "What should I do before a tornado?",
+      "Can you provide advice for actions to take before a tornado?",
+      "How can I prepare for a tornado?",
+      "Do you have any recommendations for what to do before a tornado?",
+      "What actions should I take before a tornado?"
+    ],
+    "responses": [
+      "Identify a safe shelter location in your home, such as a basement or interior room on the lowest level.",
+      "Create an emergency kit containing essential items such as water, non-perishable food, flashlight, batteries, first aid supplies, and a portable weather radio.",
+      "Develop a family emergency plan that includes communication methods and meeting points in case of a tornado.",
+      "Stay informed about weather forecasts and warnings, and know the signs of an approaching tornado.",
+      "Secure outdoor objects and bring them indoors to prevent them from becoming projectiles during a tornado."
+    ]
+  },
+  {
+    "tag": "dos after tornado",
+    "patterns": [
+      "What should I do after a tornado?",
+      "Can you provide advice for actions to take after a tornado?",
+      "How can I stay safe after a tornado?",
+      "Do you have any recommendations for what to do after a tornado?",
+      "What actions should I take after a tornado?"
+    ],
+    "responses": [
+      "Check yourself and others for injuries and provide first aid if necessary.",
+      "Listen to local authorities and follow their instructions for safety and recovery efforts after a tornado.",
+      "Watch out for hazards such as downed power lines, broken glass, and debris. Use caution when navigating through affected areas.",
+      "Assist neighbors and community members who may need help, especially those who are injured or trapped.",
+      "Contact family members to let them know you are safe, and inform them of your whereabouts."
+    ]
+  },
+  {
+    "tag": "don'ts during tornado",
+    "patterns": [
+      "What should I not do during a tornado?",
+      "Can you provide a list of things to avoid during a tornado?",
+      "What actions should I refrain from during a tornado?",
+      "What are the don'ts during a tornado?",
+      "Do you have any recommendations on what not to do during a tornado?"
+    ],
+    "responses": [
+      "Do not try to outrun a tornado in a vehicle or on foot. Seek shelter in a sturdy building or designated tornado shelter instead.",
+      "Avoid staying in vehicles, mobile homes, or temporary structures during a tornado. They offer little protection from high winds and flying debris.",
+      "Do not open windows during a tornado. This will not help equalize pressure and could allow debris to enter your home.",
+      "Refrain from taking shelter under bridges or overpasses during a tornado. They offer little protection and can become deadly wind tunnels.",
+      "Avoid using elevators during a tornado warning. Take the stairs to reach the lowest level of a building for shelter."
+    ]
+  },
+  {
+    "tag": "don'ts before tornado",
+    "patterns": [
+      "What should I not do before a tornado?",
+      "Can you provide advice on things to avoid before a tornado?",
+      "How can I prepare for a tornado by knowing what not to do?",
+      "What actions should I refrain from before a tornado?",
+      "Do you have any recommendations for what not to do before a tornado?"
+    ],
+    "responses": [
+      "Do not ignore tornado watches or warnings. Take them seriously and be prepared to take shelter if necessary.",
+      "Avoid waiting until the last minute to seek shelter. Plan ahead and know where your designated tornado shelter is located.",
+      "Refrain from opening windows in an attempt to equalize pressure during a tornado. This is a myth and will not protect your home.",
+      "Do not rely solely on tornado sirens for warning. Have multiple ways to receive tornado alerts, such as a weather radio or smartphone app.",
+      "Avoid staying in mobile homes or vehicles during tornado watches or warnings. Seek sturdier shelter in a building or designated tornado shelter."
+    ]
+  },
+  {
+    "tag": "don'ts after tornado",
+    "patterns": [
+      "What should I not do after a tornado?",
+      "Can you provide advice on things to avoid after a tornado?",
+      "How can I ensure safety in the aftermath of a tornado by knowing what not to do?",
+      "What actions should I refrain from after a tornado?",
+      "Do you have any recommendations for what not to do after a tornado?"
+    ],
+    "responses": [
+      "Do not touch or approach downed power lines. Assume they are live and report them to authorities.",
+      "Avoid entering damaged buildings until they have been inspected and deemed safe by officials.",
+      "Refrain from using candles or open flames for lighting if gas leaks are suspected. Use flashlights or battery-powered lanterns instead.",
+      "Do not consume food that may have come into contact with floodwater or debris. When in doubt, throw it out.",
+      "Avoid unnecessary travel through affected areas after a tornado. Emergency crews need clear access to provide assistance."
+    ]
+  },
+  {
+    "tag": "precautions during tornado",
+    "patterns": [
+      "What precautions should I take during a tornado?",
+      "Can you provide advice on staying safe during a tornado?",
+      "How can I protect myself during a tornado?",
+      "What actions should I take during a tornado to ensure safety?",
+      "Do you have any recommendations for precautions during a tornado?"
+    ],
+    "responses": [
+      "Seek shelter in a sturdy building or designated tornado shelter immediately when a tornado warning is issued.",
+      "Stay away from windows, doors, and exterior walls during a tornado. Take shelter in the lowest level of the building, preferably in a basement or interior room.",
+      "If you are caught outdoors during a tornado, seek shelter in a low-lying area such as a ditch or culvert. Cover your head and neck with your arms.",
+      "Avoid staying in mobile homes or vehicles during tornadoes, as they offer little protection. Find a sturdy building or storm shelter instead.",
+      "After the tornado has passed, watch out for hazards such as downed power lines, broken glass, and debris. Use caution when navigating through affected areas."
+    ]
+  },
+  {
+    "tag": "precautions before tornado",
+    "patterns": [
+      "What precautions should I take before a tornado?",
+      "Can you provide advice on preparing for a tornado?",
+      "How can I ensure safety before a tornado strikes?",
+      "What actions should I take before a tornado to minimize risk?",
+      "Do you have any recommendations for precautions before a tornado?"
+    ],
+    "responses": [
+      "Identify a safe shelter location in your home or workplace, preferably in a basement or interior room on the lowest level.",
+      "Create an emergency kit containing essential items such as water, non-perishable food, flashlight, batteries, first aid supplies, and a portable weather radio.",
+      "Stay informed about weather forecasts and warnings. Have a plan in place for seeking shelter quickly when tornado warnings are issued.",
+      "Secure outdoor objects that could become projectiles in high winds, such as patio furniture, trash cans, and garden decorations.",
+      "Practice tornado drills with your family or coworkers to ensure everyone knows what to do in the event of a tornado."
+    ]
+  },
+  {
+    "tag": "precautions after tornado",
+    "patterns": [
+      "What precautions should I take after a tornado?",
+      "Can you provide advice on staying safe after a tornado?",
+      "How can I ensure safety after a tornado has passed?",
+      "What actions should I take after a tornado to mitigate risks?",
+      "Do you have any recommendations for precautions after a tornado?"
+    ],
+    "responses": [
+      "Watch out for hazards such as downed power lines, broken glass, and debris in the aftermath of a tornado. Use caution when navigating through affected areas.",
+      "Check for any injuries and administer first aid if necessary. Seek medical help for serious injuries.",
+      "Assist others who may require help, such as elderly individuals, children, or individuals with disabilities.",
+      "Avoid entering damaged buildings until authorities have deemed them safe, as they may contain hazards such as structural damage or gas leaks.",
+      "Stay informed about recovery efforts and follow instructions from local authorities regarding cleanup and safety precautions."
+    ]
+  },
+  {
+    "tag": "classification of tornado",
+    "patterns": [
+      "What are the classifications of tornadoes?",
+      "Can you explain the different types of tornadoes?",
+      "How are tornadoes classified?",
+      "What categories do tornadoes fall into?",
+      "Do you have information on tornado classification?"
+    ],
+    "responses": [
+      "Tornadoes are classified based on the Enhanced Fujita (EF) scale, which assesses tornado intensity and damage caused. The scale ranges from EF0 to EF5, with EF5 being the most destructive.",
+      "The Enhanced Fujita (EF) scale classifies tornadoes into six categories based on the damage they cause and the wind speeds associated with them.",
+      "Tornadoes are categorized into different classifications based on their intensity and the damage they inflict on structures. These classifications help meteorologists and emergency responders assess the severity of tornado events.",
+      "The classifications of tornadoes are determined by the Enhanced Fujita (EF) scale, which considers factors such as wind speed and damage pattern to assign a rating to tornadoes.",
+      "Understanding the classifications of tornadoes can help individuals and communities prepare for and respond to tornado events more effectively."
+    ]
+  },
+  {
+    "tag": "signs of tornado",
+    "patterns": [
+      "What are the signs of a tornado?",
+      "Can you tell me how to recognize a tornado?",
+      "What are the indications that a tornado is approaching?",
+      "How can I identify if a tornado is forming?",
+      "Do you have any information on the signs of tornadoes?"
+    ],
+    "responses": [
+      "Dark, often greenish sky",
+      "Large, dark, low-lying clouds (particularly if rotating)",
+      "Loud, continuous roar or rumble, similar to a freight train",
+      "Large hailstones even though it's not raining",
+      "A visible funnel cloud or rotating debris cloud"
+    ]
+  },
+  {
+    "tag": "health risks tornado",
+    "patterns": [
+      "What are the health risks associated with tornadoes?",
+      "Can you explain the potential health hazards during tornadoes?",
+      "How can tornadoes affect health?",
+      "What are the dangers to health during tornadoes?",
+      "Do you have information on health risks related to tornadoes?"
+    ],
+    "responses": [
+      "Tornadoes can cause various health risks, including injuries from flying debris, structural collapse, and falls.",
+      "Exposure to extreme weather conditions during tornadoes, such as high winds, heavy rain, and lightning, can lead to hypothermia, heat exhaustion, or frostbite.",
+      "Tornadoes may disrupt essential services such as healthcare facilities, water supply, and sanitation, increasing the risk of waterborne diseases and infections.",
+      "Emotional distress, anxiety, and post-traumatic stress disorder (PTSD) are common psychological health risks associated with experiencing tornadoes and their aftermath.",
+      "Individuals with chronic health conditions, disabilities, or limited mobility may face additional challenges accessing necessary medical care and support during tornado events."
+    ]
+  },
+  {
+    "tag": "recovery after tornado",
+    "patterns": [
+      "What steps should I take for recovery after a tornado?",
+      "Can you provide advice on post-tornado recovery?",
+      "How can I begin the recovery process after a tornado?",
+      "What actions should I take to rebuild after a tornado?",
+      "Do you have any recommendations for recovery after a tornado?"
+    ],
+    "responses": [
+      "Assess the damage to your property and prioritize safety concerns such as securing unstable structures and turning off utilities if necessary.",
+      "Contact your insurance provider to report damages and begin the claims process. Document the damage with photographs or videos for your records.",
+      "Seek assistance from local government agencies, nonprofit organizations, and disaster relief services for support with cleanup and recovery efforts.",
+      "Stay informed about available resources and assistance programs for tornado survivors, including financial aid, temporary housing, and debris removal services.",
+      "Take care of your physical and mental well-being during the recovery process. Seek support from friends, family, or counseling services if needed."
+    ]
+  },
+  {
+    "tag": "preparedness for tornado",
+    "patterns": [
+      "How can I prepare for a tornado?",
+      "Can you provide advice on tornado preparedness?",
+      "What steps should I take to be ready for a tornado?",
+      "What are some preparedness measures for tornadoes?",
+      "Do you have any recommendations for getting ready for a tornado?"
+    ],
+    "responses": [
+      "Identify a safe shelter location in your home or workplace, preferably in a basement or interior room on the lowest level.",
+      "Create an emergency kit containing essential items such as water, non-perishable food, flashlight, batteries, first aid supplies, and a portable weather radio.",
+      "Stay informed about weather forecasts and warnings. Have a plan in place for seeking shelter quickly when tornado warnings are issued.",
+      "Practice tornado drills with your family or coworkers to ensure everyone knows what to do in the event of a tornado.",
+      "Secure outdoor objects that could become projectiles in high winds, such as patio furniture, trash cans, and garden decorations."
+    ]
+  },
+  {
+    "tag": "lifesaving for tornado",
+    "patterns": [
+      "What lifesaving measures should I take during a tornado?",
+      "Can you provide tips for saving lives during a tornado?",
+      "How can I help ensure the safety of others during a tornado?",
+      "What actions can be lifesaving during a tornado?",
+      "Do you have any recommendations for saving lives from a tornado?"
+    ],
+    "responses": [
+      "Seek shelter in a sturdy building or designated tornado shelter immediately when a tornado warning is issued to protect yourself and others.",
+      "If someone is injured or trapped during a tornado, call for professional help and avoid attempting to rescue them yourself unless it is safe to do so.",
+      "Assist people who require special assistance, such as infants, elderly individuals, and individuals with disabilities, to ensure their safety during a tornado.",
+      "Stay informed about weather forecasts and warnings, and encourage others to take appropriate safety measures to mitigate the risks of tornadoes.",
+      "After the tornado has passed, check for any injuries and administer first aid if necessary. Seek medical help for serious injuries."
+    ]
+  }
+  ]
+}
